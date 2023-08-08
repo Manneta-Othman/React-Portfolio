@@ -51,7 +51,6 @@ section{
     align-items: center;
     padding: 10px 9%;
     background-color: #f1f1f1;
-
 }
 
 .logo{
@@ -112,13 +111,10 @@ section{
 
 #menu-icon{
     display: none;
+    font-size: 28px;
+    color: #42446E;
 }
 
-
-.toggle-menu a{
-    font-size: 25px;
-    color: #666666;
-}
 
 @media screen and (max-width: 950px) {
         .navbar{
@@ -130,20 +126,37 @@ section{
             line-height: 55px;
         }
 
-        .navbar .nav-links{
-            position: absolute;
-            display: none;
-            flex-direction: column;
-            background-color: #87d4f5;
-            width: 200px;
-            height: fit-content;
-            top: 10px;
-            right: 100px;
-            padding: 20px;
-        }
-        .toggle-menu{
-            display: inline-block;
-        }
+}
+
+
+@media screen and (max-width: 800px) {
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar .nav-links{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        background: #42446E;
+        width: 100%;
+        height: fit-content;
+        top: 70px;
+        right: -100%;
+        padding: 50px;
+        z-index: 10;
+        transition: .3s ease;
+    }
+
+    .navbar .nav-links.active{
+        right: 0;
+    }
+
+    .navbar .nav-links a{
+        color: #fff !important;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -559,7 +572,7 @@ About Design
 Contact Design 
  ************/
 
-.contact{
+.contact-page{
     min-height: 100vh;
 }
 
@@ -677,6 +690,7 @@ Media Query
     .home .container{
         display: flex;
         flex-direction: column;
+        gap: 100px;
     }
 
     .header .content h1{
@@ -727,10 +741,11 @@ Media Query
         }
 
             /* Footer */
+
     footer .footer-top .contact{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .footer-top .contact p, .footer-top .contact .icon{
@@ -792,6 +807,12 @@ Media Query
     .bottom-left ul{
         flex-direction: column;
         row-gap: 15px;
+    }
+
+    /* Footer */
+
+    footer .footer-top, footer .footer-top .contact{
+        align-items: flex-start;
     }
 
     .footer-top .contact p{
