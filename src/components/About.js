@@ -1,15 +1,15 @@
 import React from 'react'
 
-import othman from '../assets/othman.png';
-import html from '../assets/html.svg';
-import css from '../assets/css.svg';
-import js from '../assets/js.svg';
-import react from '../assets/react.svg';
-import bootstrap from '../assets/bootstrap.svg';
-import sass from '../assets/sass.svg';
-import git from '../assets/git.svg';
-import vscode from '../assets/vscode.svg';
-import github from '../assets/github.svg';
+import othman from '../images/othman.png';
+import html from '../images/html.svg';
+import css from '../images/css.svg';
+import js from '../images/js.svg';
+import react from '../images/react.svg';
+import bootstrap from '../images/bootstrap.svg';
+import sass from '../images/sass.svg';
+import git from '../images/git.svg';
+import vscode from '../images/vscode.svg';
+import github from '../images/github.svg';
 
 export const About = () => {
   return (

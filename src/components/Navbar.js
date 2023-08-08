@@ -23,8 +23,6 @@ export const Navbar = () => {
                     <a href="https://www.linkedin.com/in/othman-manneta-504293204/" target='_blank' className="linkedin"> <BsLinkedin class='icon' /> </a>
                 </div>
             </ul>
-
-
             
         </nav>
   )
