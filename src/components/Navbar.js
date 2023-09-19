@@ -22,8 +22,8 @@ export const Navbar = () => {
                 <li><a href="/contact">Contact</a></li>
 
                 <div className="nav-icons">
-                    <a href="https://github.com/Manneta-Othman" target='_blank' className="github"> <BsGithub class='icon' /> </a>
-                    <a href="https://www.linkedin.com/in/othman-manneta-504293204/" target='_blank' className="linkedin"> <BsLinkedin class='icon' /> </a>
+                    <a href="https://github.com/Manneta-Othman" target='_blank' rel="noreferrer" className="github"> <BsGithub class='icon' /> </a>
+                    <a href="https://www.linkedin.com/in/othman-manneta-504293204/" rel="noreferrer" target='_blank' className="linkedin"> <BsLinkedin class='icon' /> </a>
                 </div>
             </ul>
 

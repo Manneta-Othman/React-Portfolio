@@ -25,7 +25,7 @@ export const Home = () => {
                     <h1>Hi 👋, <br /> My name is <br /> <span className="name">Othman Manneta</span> <br /> I am a Front-End Web Developer</h1>
                 </div>
                 <div className="image">
-                    <img src={othman} alt="profile photo" />
+                    <img src={othman} alt="profile" />
                 </div>
             </div>
         </section>
@@ -35,7 +35,7 @@ export const Home = () => {
         <div className="container">
 
             <div>
-            <Heading title='My Tech Stack' subtitle=' Technologies I’ve been working with recently'/>
+            <Heading title='My Tech Stack' subtitle=" Technologies I’ve been working with recently"/>
             </div>
 
             <div className="images">
@@ -60,7 +60,7 @@ export const Home = () => {
         <div>
             <Heading title='My Tech Stack' subtitle=" Things I've built so far"/>
         </div>
-        <div className="container">
+        <div className="project-container">
             <Projects />
         </div>
         

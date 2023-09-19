@@ -40,7 +40,7 @@ export const Projects = () => {
                 <div className="links">
                     <div className="preview">
                         <BiLink className='project-icon' />
-                        <a href={d.preview} target='_blank'>Live Preview</a>
+                        <a href={d.preview} target='_blank' rel="noreferrer" >Live Preview</a>
                     </div>
                     <div className="code">
                         <BiLogoGithub className='project-icon' />
