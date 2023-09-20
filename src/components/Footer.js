@@ -14,7 +14,7 @@ export const Footer = () => {
                 
                 <div className="icons">
                     <a href="https://github.com/Manneta-Othman"><BsGithub className='icon' /></a> 
-                    <a href="https://www.linkedin.com/in/othman-manneta-504293204/"><BsLinkedin className='icon' /></a>
+                    <a href="https://www.linkedin.com/in/othman-manneta/"><BsLinkedin className='icon' /></a>
                 </div>
                 
             </div>
@@ -33,7 +33,7 @@ export const Footer = () => {
                 </ul>
             </div>
             <div className="bottom-right">
-                    <Link to="https://manneta.netlify.app/" _blank='true' ><p>Built by Othman Manneta</p></Link>
+                    <Link to="https://www.linkedin.com/in/othman-manneta/" _blank='true' ><p>Built by Othman Manneta</p></Link>
             </div>
         </div>
     </div>
