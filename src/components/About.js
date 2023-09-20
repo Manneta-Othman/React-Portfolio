@@ -19,7 +19,9 @@ export const About = () => {
               <img src={othman} alt="My profile" />
             </div>
             <h1>About Me</h1>
-            <p>The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.</p>
+            <p>Hello! I'm Othman Manneta, and I'm embarking on a journey to excel as a front-end developer. While my professional experience may not be extensive, my enthusiasm for mastering the art of web development knows no bounds.</p>
+            <br/>
+            <p>My journey commenced with rigorous self-study and comprehensive online courses, through which I solidified my foundation in core technologies like HTML, CSS, and JavaScript. Additionally, I've eagerly expanded my skill set to encompass a wide range of tools and frameworks, including React, TypeScript, Bootstrap, Sass, Git, and more. These skills have found practical application in a variety of projects that I've meticulously crafted, all showcased in my portfolio.</p>
         </div>
         <div className="skills">
             <h1>Skills</h1>

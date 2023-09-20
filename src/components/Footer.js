@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom';
 import {BsGithub, BsLinkedin} from 'react-icons/bs';
 
 export const Footer = () => {
@@ -32,7 +33,7 @@ export const Footer = () => {
                 </ul>
             </div>
             <div className="bottom-right">
-                <p>Designed and built by Pavan MG with Love & Coffee</p>
+                    <Link to="https://manneta.netlify.app/" _blank='true' ><p>Built by Othman Manneta</p></Link>
             </div>
         </div>
     </div>

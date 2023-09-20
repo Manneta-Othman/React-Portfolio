@@ -11,8 +11,8 @@
         },
 
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 2,
+            "title": "My project 2",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -21,8 +21,8 @@
         },
 
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 3,
+            "title": "My project 3",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -31,8 +31,8 @@
         },
 
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 4,
+            "title": "My project 4",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -40,8 +40,8 @@
             "img": "assets/project4.png"
         },
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 5,
+            "title": "My project 5",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -49,8 +49,8 @@
             "img": "assets/project5.png"
         },
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 6,
+            "title": "My project 6",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -58,8 +58,8 @@
             "img": "assets/project6.png"
         },
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 7,
+            "title": "My project 7",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -67,8 +67,8 @@
             "img": "assets/project1.png"
         },
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 8,
+            "title": "My project 8",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -76,8 +76,8 @@
             "img": "assets/project2.png"
         },
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 9,
+            "title": "My project 9",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
@@ -85,8 +85,8 @@
             "img": "assets/project3.png"
         },
         {
-            "id": 1,
-            "title": "My project 1",
+            "id": 10,
+            "title": "My project 10",
             "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",

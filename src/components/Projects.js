@@ -26,9 +26,9 @@ export const Projects = () => {
     return (
 
         <>
-        {data && data.map((d) => (
+        {data && data.slice(0,6).map((d) => (
 
-        <div className='project'>
+        <div className='project' key={d.id}>
             <div className="image">
                 <img src={d.img} alt=" project" />
                 <BiLinkExternal className='img-icon' />
