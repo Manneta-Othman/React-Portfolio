@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Heading } from './Heading'
 
-export const Default = () => {
+export default function Default () {
   return (
     <>
     <h1>Hello from Default</h1>

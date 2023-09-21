@@ -11,7 +11,7 @@ import git from '../images/git.svg';
 import vscode from '../images/vscode.svg';
 import github from '../images/github.svg';
 
-export const About = () => {
+export default function About() {
   return (
     <section className='about'>
         <div className="about-me">
