@@ -602,11 +602,19 @@ Contact Design
 
 .contact-page{
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 390px);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     overflow: hidden;
+}
+
+
+.contact-page .heading p,
+.contact-page .heading h1{
+    margin: 0;
+    padding: 25px 0;
 }
 
 

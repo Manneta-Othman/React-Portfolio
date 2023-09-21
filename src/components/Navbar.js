@@ -18,8 +18,8 @@ export const Navbar = () => {
             <ul className={show ? 'nav-links active' : 'nav-links'}>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/#skills">Teck Stack</Link></li>
-                <li><Link to="/#projects">Projects</Link></li>
+                <li><a href="/#skills">Teck Stack</a></li>
+                <li><a href="/#projects">Projects</a></li>
                 <li><Link to="/contact">Contact</Link></li>
 
                 <div className="nav-icons">
