@@ -3,7 +3,7 @@ import React from 'react'
 import { Heading } from './Heading';
 
 
-export default function Contact() {
+export function Contact() {
   return (
     <section className='contact-page'>
         <>
