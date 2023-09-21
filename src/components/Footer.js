@@ -13,8 +13,8 @@ export const Footer = () => {
                 <p>Othman.Manneta@gmail.com</p>
                 
                 <div className="icons">
-                    <a href="https://github.com/Manneta-Othman"><BsGithub className='icon' /></a> 
-                    <a href="https://www.linkedin.com/in/othman-manneta/"><BsLinkedin className='icon' /></a>
+                    <a href="https://github.com/Manneta-Othman" target='_blank' rel="noreferrer"><BsGithub className='icon' /></a> 
+                    <a href="https://www.linkedin.com/in/othman-manneta/" target='_blank' rel="noreferrer"><BsLinkedin className='icon' /></a>
                 </div>
                 
             </div>
