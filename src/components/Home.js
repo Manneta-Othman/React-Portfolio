@@ -12,6 +12,9 @@ import vscode from '../assets/vscode.svg';
 import github from '../assets/github.svg';
 import redux from '../assets/redux.svg';
 import typeScript from '../assets/typescript.svg';
+import npm from '../assets/npm.svg';
+import nodejs from '../assets/nodejs.svg';
+import express from '../assets/express.svg';
 
 
 import {Heading} from './Heading';
@@ -52,6 +55,9 @@ export const Home = () => {
                 <img src={git} alt="html" />
                 <img src={vscode} alt="html" />
                 <img src={github} alt="html" />
+                <img src={nodejs} alt="html" style={{'opacity': '0.3'}} />
+                <img src={express} alt="html" style={{'opacity': '0.3'}} />
+                <img src={npm} alt="html" style={{'opacity': '0.3'}} />
             </div>
         </div>
 
