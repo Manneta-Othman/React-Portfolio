@@ -42,9 +42,9 @@ export function About() {
                 <img src={git} alt="html" />
                 <img src={vscode} alt="html" />
                 <img src={github} alt="html" />
-                <img src={nodejs} alt="html" />
-                <img src={express} alt="html" />
-                <img src={npm} alt="html" />
+                <img src={nodejs} alt="html" style={{'opacity': '0.5'}} />
+                <img src={express} alt="html" style={{'opacity': '0.5'}} />
+                <img src={npm} alt="html" style={{'opacity': '0.5'}} />
             </div>
         </div>
     </section>
