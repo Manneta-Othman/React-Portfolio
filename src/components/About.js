@@ -12,6 +12,9 @@ import vscode from '../assets/vscode.svg';
 import github from '../assets/github.svg';
 import redux from '../assets/redux.svg';
 import typeScript from '../assets/typescript.svg';
+import npm from '../assets/npm.svg';
+import nodejs from '../assets/nodejs.svg';
+import express from '../assets/express.svg';
 
 export function About() {
   return (
@@ -39,6 +42,9 @@ export function About() {
                 <img src={git} alt="html" />
                 <img src={vscode} alt="html" />
                 <img src={github} alt="html" />
+                <img src={nodejs} alt="html" />
+                <img src={express} alt="html" />
+                <img src={npm} alt="html" />
             </div>
         </div>
     </section>
