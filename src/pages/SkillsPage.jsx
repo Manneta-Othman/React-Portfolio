@@ -29,7 +29,7 @@ export default function SkillsPage() {
     getSkills();
   }, []);
 
-console.log(tech)
+
   return (
     <section>
       <div className="container">

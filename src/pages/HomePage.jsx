@@ -47,21 +47,21 @@ export const Home = () => {
 
                     <div className="images">
                         <img src={html} alt="html" />
-                        <img src={css} alt="html" />
-                        <img src={js} alt="html" />
-                        <img src={react} alt="html" />
-                        <img src={bootstrap} alt="html" />
-                        <img src={sass} alt="html" />
-                        <img src={typeScript} alt="html" />
-                        <img src={redux} alt="html" />
-                        <img src={git} alt="html" />
-                        <img src={vscode} alt="html" />
-                        <img src={github} alt="html" />
-                        <img src={nodejs} alt="html" />
-                        <img src={express} alt="html" />
-                        <img src={npm} alt="html" />
+                        <img src={css} alt="css" />
+                        <img src={js} alt="js" />
+                        <img src={react} alt="react" />
+                        <img src={bootstrap} alt="bootstrap" />
+                        <img src={sass} alt="sass" />
+                        <img src={typeScript} alt="typescript" />
+                        <img src={redux} alt="redux" />
+                        <img src={git} alt="git" />
+                        <img src={vscode} alt="vscode" />
+                        <img src={github} alt="github" />
+                        <img src={nodejs} alt="nodejs" />
+                        <img src={express} alt="express" />
+                        <img src={npm} alt="npm" />
                     </div>
-                    <h3 className='discover-more'><Link to='/skills'>Discover more</Link><BsArrowRight /></h3>
+                    <button className='discover-more'><Link to='/skills'>Discover more</Link><BsArrowRight /></button>
                 </div>
 
             </section>

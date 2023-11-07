@@ -66,7 +66,7 @@
     "desc": "TypeScript enhances my JavaScript code with static types, ensuring enhanced code quality and improved developer experience. With TypeScript, I catch errors early, enhance code readability, and enable efficient collaboration in my projects, resulting in robust and maintainable applications.",
     "projects": [
       {"projectName": "Project 1", "projectThumb": "assets/video/thumb/typescript-project1-thumb.png", "projectVideo": "assets/video/typescript-project1.mp4"},
-      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/typescript-project2-thumb.png", "projectVideo": "assets/video/typescript-project2.mp4"}
+      {"projectName": "Project 2", "projectThumb": "assets/video/thumb/typescript-project2-thumb.png", "projectVideo": "assets/video/typescript-project2.mp4"}
     ],
     "certifImg": "",
     "statement": "You could explore my projects using TypeScript by",

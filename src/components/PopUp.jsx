@@ -38,7 +38,11 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
             {
               tech.projects?.map((p, index) => (
                 <>
-                  <video key={p.projectName} controls className={projectNum === index ? 'active' : ''}>
+                  <video
+                    key={p.projectThumb}
+                    controls
+                    className={projectNum === index ? 'active' : ''}
+                    >
                     <source src={p.projectVideo} type="video/mp4" />
                   </video>
                 </>
@@ -49,18 +53,18 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
             {
               tech.projects?.map((p, index) => (
                 <div
-                  key={p.projectThumb}
+                  key={p.projectVideo}
                   className={projectNum === index ? "project-item selected" : "project-item"}
                   onClick={() => setProjectNum((index))}
-                  >
+                >
                   <img src={p.projectThumb} alt={p.projectName} />
                 </div>
               ))
             }
           </div>
         </div>)
-       }
-      
+      }
+
     </div>
   );
 }
