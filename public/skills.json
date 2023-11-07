@@ -1,0 +1,176 @@
+
+[
+  {
+    "lg": "HTML & CSS", 
+    "icon": ["assets/html.svg", "assets/css.svg"], 
+    "desc": "Fundamental to my work, these languages are essential for creating elegant interfaces. While some projects include minimal JavaScript, I thrive in crafting intuitive designs using HTML and CSS",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/html-project1-thumb.png", "projectVideo": "assets/video/html-project1.mp4"},
+      {"projectName": "Project 2", "projectThumb": "assets/video/thumb/html-project2-thumb.png", "projectVideo": "assets/video/html-project2.mp4"},
+      {"projectName": "Project 3", "projectThumb": "assets/video/thumb/html-project3-thumb.png", "projectVideo": "assets/video/html-project3.mp4"},
+      {"projectName": "Project 4", "projectThumb": "assets/video/thumb/html-project4-thumb.png", "projectVideo": "assets/video/html-project4.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my HTML & CSS projects by",
+    "id": 1
+  },
+  {
+    "lg": "JavaScript", 
+    "icon": "assets/javascript.svg", 
+    "desc": "Dynamic and versatile, JavaScript breathes life into my projects, enabling interactive user experiences and robust functionality. It empowers me to create seamless web applications, from basic interactivity to intricate feature implementations.",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/js-project1-thumb.png", "projectVideo": "assets/video/js-project1.mp4"},
+      {"projectName": "Project 2", "projectThumb": "assets/video/thumb/js-project2-thumb.png", "projectVideo": "assets/video/js-project2.mp4"},
+      {"projectName": "Project 3", "projectThumb": "assets/video/thumb/js-project3-thumb.png", "projectVideo": "assets/video/js-project3.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my JavaScript projects by",
+    "id": 2
+  },
+  {
+    "lg": "SASS", 
+    "icon": "assets/sass.svg", 
+    "desc": "Sass enhances my CSS stylesheets with features like variables, nesting, and mixins. It ensures maintainable and organized designs, adding elegance to every interface. Its flexibility empowers me to implement complex designs with ease.",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/html-project1-thumb.png", "projectVideo": "assets/video/html-project1.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my projects using SASS by",
+    "id": 3
+  },
+  {
+    "lg": "React.js", 
+    "icon": "assets/react.svg", 
+    "desc": "With React.js, I design modular and responsive user interfaces, ensuring a seamless user journey. Its component-based architecture allows me to create engaging web applications, making every interaction meaningful and intuitive.",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/react-project1-thumb.png", "projectVideo": "assets/video/react-project1.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my React.js projects by",
+    "id": 4
+  },
+  {
+    "lg": "Redux", 
+    "icon": "assets/redux.svg", 
+    "desc": "Redux serves as my state management library, enabling predictable state updates and efficient data flow in my applications. With Redux, I centralize state management, ensuring seamless communication between components and enabling me to create complex yet organized applications with clear data flows.",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/html-project1-thumb.png", "projectVideo": "assets/video/html-project1.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my projects using Redux by",
+    "id": 5
+  },
+  {
+    "lg": "TypeScript", 
+    "icon": "assets/typescript.svg", 
+    "desc": "TypeScript enhances my JavaScript code with static types, ensuring enhanced code quality and improved developer experience. With TypeScript, I catch errors early, enhance code readability, and enable efficient collaboration in my projects, resulting in robust and maintainable applications.",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/typescript-project1-thumb.png", "projectVideo": "assets/video/typescript-project1.mp4"},
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/typescript-project2-thumb.png", "projectVideo": "assets/video/typescript-project2.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my projects using TypeScript by",
+    "id": 6
+  },
+  {
+    "lg": "Bootstrap", 
+    "icon": "assets/bootstrap.svg", 
+    "desc": "Bootstrap provides a foundation for responsive and visually appealing web designs. Its pre-designed components and grid system streamline frontend development, creating sleek and user-friendly interfaces for seamless navigation and optimal user experiences.",
+    "projects": [
+      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/bootstrap-project1-thumb.png", "projectVideo": "assets/video/bootstrap-project1.mp4"}
+    ],
+    "certifImg": "",
+    "statement": "You could explore my projects using Bootstrap by",
+    "id": 7
+  },
+  {
+    "lg": "Git", 
+    "icon": "assets/git.svg", 
+    "desc": "Git is my version control tool of choice, enabling seamless collaboration and efficient project management. With Git, I track changes, resolve conflicts, and ensure code integrity, ensuring a smooth workflow in my development projects.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "All the projects were managed, edited, and version-controlled using Git.",
+    "id": 8
+  },
+  {
+    "lg": "Github", 
+    "icon": "assets/github.svg", 
+    "desc": "GitHub is my collaborative hub, where I showcase my projects, collaborate with fellow developers, and contribute to open-source communities. Through GitHub, I demonstrate my version control expertise, share my codebase, and actively engage in the global developer community. It serves as a testament to my skills, creativity, and passion for web development.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "You could explore my Github repositories by",
+    "link": "https://github.com/Manneta-Othman",
+    "id": 9
+  },
+  {
+    "lg": "Node.js", 
+    "icon": "assets/nodejs.svg", 
+    "desc": "Node.js serves as the backbone of my server-side operations, handling data, managing server tasks, and building scalable APIs. Its event-driven, non-blocking I/O model ensures high-performance server applications and seamless communication between server and client sides.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
+    "id": 10
+  },
+  {
+    "lg": "Express.js", 
+    "icon": "assets/express.svg", 
+    "desc": "Express.js, a minimalist and flexible Node.js framework, enables me to build robust and scalable APIs effortlessly. Its simplicity and modularity make it my choice for creating backend services, ensuring efficient routing, middleware integration, and optimal performance in my web applications.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
+    "id": 11
+  },
+  {
+    "lg": "Next.js", 
+    "icon": "assets/next.png", 
+    "desc": "Next.js revolutionizes my frontend development with its efficient server-side rendering and intuitive framework. It empowers me to build fast and dynamic web applications, ensuring a seamless user experience and elevating my projects to the next level.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
+    "id": 12
+  },
+  {
+    "lg": "npm", 
+    "icon": "assets/npm.svg", 
+    "desc": "npm is my package manager, simplifying dependency management and enhancing project scalability. With npm, I effortlessly install, share, and manage packages, ensuring a streamlined development process and enabling me to leverage a vast ecosystem of tools and libraries.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "For npm, I have extensively utilized it as a package manager in various basic projects. My familiarity with npm extends to managing dependencies, installing packages, and ensuring smooth project workflows. Currently, I am incorporating npm into my ongoing official projects, leveraging its capabilities to enhance the development process.",
+    "id": 13
+  },
+  {
+    "lg": "MongoDB", 
+    "icon": "assets/mongodb.svg", 
+    "desc": "MongoDB, my database of choice, simplifies data management with its flexible and JSON-like document structure. It enables efficient data handling, allowing me to focus on crafting innovative features for my projects, from user profiles to complex datasets.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
+    "id": 14
+  },
+  {
+    "lg": "SQL",
+    "icon": "assets/Manneta-logo.png", 
+    "desc": "SQL (Structured Query Language) empowers me to interact with databases, ensuring efficient data storage, retrieval, and management. With SQL, I craft optimized database queries, design schemas, and ensure data integrity. Its versatility allows me to work with various database systems, enabling seamless integration and robust data-driven applications.",
+    "projects": [
+
+    ],
+    "certifImg": "",
+    "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
+    "id": 15
+  }
+
+      ]
