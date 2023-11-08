@@ -31,7 +31,7 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
 
   return (
     <div className={isPopupOpen ? "popup open" : "popup"}>
-      {tech?.projects.length > 0 &&
+      {tech?.projects &&
         (<div className="popup-container">
           <img src={closeICon} alt="" onClick={() => setIsPopupOpen('')} />
           <div className="project-media">
