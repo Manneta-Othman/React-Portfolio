@@ -47,7 +47,7 @@ export function Card({ tech, setIsPopupOpen }) {
         <h2>Projects</h2>
         <div className="single-project">
           <p>
-            {tech.projects.length > 0 ?
+            {tech.projects ?
               <>
                 {tech.statement} <span onClick={handlePopUpProjects}> Clicking Here</span>
               </> 

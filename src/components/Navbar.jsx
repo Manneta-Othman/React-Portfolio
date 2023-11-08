@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
@@ -7,39 +7,65 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 export const Navbar = () => {
 
-    const [path, setPath] = useState('/')
+    const [path, setPath] = useState(window.location.pathname)
+    const menuRef = useRef()
 
-    const [show, setShow] = useState(false);
+    const [show, setOpenMenu] = useState(false);
+
 
     useEffect(() => {
-        function outSideClick() {
-            setShow(false)
+
+        function clickOutside(e) {
+            if (!menuRef.current.contains(e.target)) {
+                setOpenMenu(false)
+            }
         }
-        document.addEventListener('mousedown', outSideClick)
+
+        document.addEventListener('mousedown', clickOutside)
+
     })
 
+    console.log(path)
+
     return (
-        <nav className="navbar">
+        <nav className="navbar" ref={menuRef}>
             <a className='logo' href="/">Manneta</a>
 
-            <AiOutlineMenu id='menu-icon' onClick={() => setShow(prev => !prev)} />
+            <div className="icon" onClick={() => setOpenMenu(prev => !prev)}>
+                <AiOutlineMenu id='menu-icon' />
+            </div>
 
             <ul className={show ? 'nav-links active' : 'nav-links'}>
-                <Link to="/" onClick={() => setPath('/')} >
-                    <li className={path === '/' ? 'active' : ''}>Home</li>
-                </Link>
-                <Link to="/about" onClick={() => setPath('/about')} >
-                    <li className={path === '/about' ? 'active' : ''}>About</li>
-                </Link>
-                <Link to="/skills" onClick={() => setPath('/skills')} >
-                    <li className={path === '/skills' ? 'active' : ''}>Teck Stack</li>
-                </Link>
-                <Link to="/projects" onClick={() => setPath('/projects')} >
-                    <li className={path === '/projects' ? 'active' : ''}>Projects</li>
-                </Link>
-                <Link to="/contact" onClick={() => setPath('/contact')} >
-                    <li className={path === '/contact' ? 'active' : ''}>Contact</li>
-                </Link>
+                <li
+                    className={path === '/' ? 'active' : ''}
+                    onClick={() => setPath('/')}
+                >
+                    <Link to="/">Home</Link>
+                </li>
+                <li
+                    className={path === '/about' ? 'active' : ''}
+                    onClick={() => setPath('/about')}
+                >
+                    <Link to="/about">About</Link>
+                </li>
+                <li
+                    className={path === '/skills' ? 'active' : ''}
+                    onClick={() => setPath('/skills')}
+                >
+                    <Link to="/skills">Teck Stack</Link>
+                </li>
+                <li
+                    className={path === '/projects' ? 'active' : ''}
+                    onClick={() => setPath('/projects')}
+                >
+                    <Link to="/projects">Projects</Link>
+                </li>
+                <li
+                    className={path === '/contact' ? 'active' : ''}
+                    onClick={() => setPath('/contact')}
+                >
+                    <Link to="/contact">Contact</Link>
+                </li>
 
                 <div className="nav-icons">
                     <Link to="https://github.com/Manneta-Othman" target='_blank' rel="noreferrer" className="github"> <BsGithub className='icon' /> </Link>

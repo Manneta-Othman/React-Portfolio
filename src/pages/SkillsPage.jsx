@@ -32,11 +32,11 @@ export default function SkillsPage() {
 
   return (
     <section>
-      <div className="container">
+      <div className="skills-page-container">
         <Heading title='My Tech Skills' />
 
         <h2>Introduction:</h2>
-        <p> Hello there! 👋 I'm Othman Manneta, a passionate front-end web developer on a mission to transform creative ideas into captivating digital experiences. I've curated this space to showcase my technical prowess, inviting potential employers into my world of web development wizardry.</p>
+        <p className='skills-intro'> Hello there! 👋 I'm Othman Manneta, a passionate front-end web developer on a mission to transform creative ideas into captivating digital experiences. I've curated this space to showcase my technical prowess, inviting potential employers into my world of web development wizardry.</p>
 
         <div className="cards-container">
           {

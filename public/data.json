@@ -5,19 +5,19 @@
             "title": "Restaunt Landing Page",
             "desc": "Responsive restaurant landing page developed with React, offering an enticing visual experience and seamless navigation for potential customers.",
             "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project1-thumb.png"
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/react/restaurant-thumb.png"
         },
 
         {
             "id": 2,
             "title": "Travel Landing Page",
             "desc": "Visually appealing tour and travel landing page crafted with HTML, CSS, and JavaScript, providing an immersive preview of travel destinations.",
-            "tech": "HTML, CSS, JavaScript",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project2-thumb.png"
+            "tech": "HTML - CSS - JavaScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/html&css/travel-thumb.png"
         },
 
         {
@@ -25,28 +25,28 @@
             "title": "GPT-3 Landing Page",
             "desc": "Captivating landing page designed with React, emphasizing features and capabilities of GPT-3, showcasing prowess in visually appealing promotional pages",
             "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project3-thumb.png"
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/react/gpt3-thumb.png"
         },
         {
             "id": 4,
             "title": "Sushi Landing Page",
             "desc": "Vibrant sushi landing page capturing sushi culture, designed with HTML, CSS, and JavaScript, focusing on visually appealing restaurant showcases.",
-            "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project4-thumb.png"
+            "tech": "HTML - CSS - JavaScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/html&css/sushi-thumb.png"
         },
 
         {
             "id": 5,
             "title": "Budget Calculator",
             "desc": "User-friendly budget management application built with React, showcasing skills in state management, data visualization, and practical web tools.",
-            "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/js-project1-thumb.png"
+            "tech": "HTML - CSS - JavaScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/js/budget-calculator-thumb.png"
         },
 
         {
@@ -54,37 +54,77 @@
             "title": "Medical Services",
             "desc": "Comprehensive medical website showcasing complex features and functionalities developed with React, highlighting proficiency in intricate web projects.",
             "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/react-project1-thumb.png"
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/react/medical-services-thumb.png"
         },
         {
             "id": 7,
-            "title": "My project 1",
-            "desc": "",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/typeScript-project1-thumb.png"
+            "title": "Rock-Paper-Scissors Game",
+            "desc": "lassic game implementation showcasing front-end game development skills using HTML, CSS, and Vanilla JavaScript.",
+            "tech": "HTML , CSS, JavaScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/js/rock-paper-scissors-thumb.png"
         },
 
         {
             "id": 8,
-            "title": "My project 2",
-            "desc": "",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/typescript-project2-thumb.png"
+            "title": "Tic Tac Toe Game",
+            "desc": "Strategic tic-tac-toe game crafted with HTML, CSS, and Vanilla JavaScript, highlighting interactive web game development expertise.",
+            "tech": "HTML, CSS, Vanilla JavaScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/js/tic-tac-toe-thumb.png"
         },
 
         {
             "id": 9,
-            "title": "My project 3",
+            "title": "Ping Pong Game",
             "desc": "",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": ""
+            "tech": "HTML, CSS, Vanilla JavaScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/js/ping-pong-thumb.png"
+        },
+
+        {
+            "id": 10,
+            "title": "Taking Notes ",
+            "desc": "",
+            "tech": "TypeScript - Bootstrap",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/typescript/taking-notes-thumb.png"
+        },
+
+        {
+            "id": 11,
+            "title": "Shopping Cart ",
+            "desc": "",
+            "tech": "TypeScript - Bootstrap",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/typescript/shopping-cart-thumb.png"
+        },
+
+        {
+            "id": 12,
+            "title": "Dream House",
+            "desc": "",
+            "tech": "HTML , CSS, Bootstrap",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/bootstrap/dream-house-thumb.png"
+        },
+
+        {
+            "id": 13,
+            "title": "Matching Cards Game",
+            "desc": "Interactive memory card game demonstrating expertise in creating engaging user experiences using HTML, CSS, React, and TypeScript.",
+            "tech": "HTML - CSS - TypeScript",
+            "github": "",
+            "preview": "",
+            "img": "assets/video/thumb/typescript/matching-cards-thumb.png"
         }
             ]
