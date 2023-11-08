@@ -2,89 +2,31 @@
     [
         {
             "id": 1,
-            "title": "Restaunt Landing Page",
-            "desc": "Responsive restaurant landing page developed with React, offering an enticing visual experience and seamless navigation for potential customers.",
-            "tech": "React.js",
+            "title": "My project 1",
+            "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+            "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
             "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project1-thumb.png"
+            "img": "assets/project1.png"
         },
 
         {
             "id": 2,
-            "title": "Travel Landing Page",
-            "desc": "Visually appealing tour and travel landing page crafted with HTML, CSS, and JavaScript, providing an immersive preview of travel destinations.",
-            "tech": "HTML, CSS, JavaScript",
+            "title": "My project 2",
+            "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+            "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
             "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project2-thumb.png"
+            "img": "assets/project2.png"
         },
 
         {
             "id": 3,
-            "title": "GPT-3 Landing Page",
-            "desc": "Captivating landing page designed with React, emphasizing features and capabilities of GPT-3, showcasing prowess in visually appealing promotional pages",
-            "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project3-thumb.png"
-        },
-        {
-            "id": 4,
-            "title": "Sushi Landing Page",
-            "desc": "Vibrant sushi landing page capturing sushi culture, designed with HTML, CSS, and JavaScript, focusing on visually appealing restaurant showcases.",
-            "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/html-project4-thumb.png"
-        },
-
-        {
-            "id": 5,
-            "title": "Budget Calculator",
-            "desc": "User-friendly budget management application built with React, showcasing skills in state management, data visualization, and practical web tools.",
-            "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/js-project1-thumb.png"
-        },
-
-        {
-            "id": 6,
-            "title": "Medical Services",
-            "desc": "Comprehensive medical website showcasing complex features and functionalities developed with React, highlighting proficiency in intricate web projects.",
-            "tech": "React.js",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/react-project1-thumb.png"
-        },
-        {
-            "id": 7,
-            "title": "My project 1",
-            "desc": "",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/typeScript-project1-thumb.png"
-        },
-
-        {
-            "id": 8,
-            "title": "My project 2",
-            "desc": "",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/video/thumb/typescript-project2-thumb.png"
-        },
-
-        {
-            "id": 9,
             "title": "My project 3",
-            "desc": "",
+            "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
             "tech": "HTML , JavaScript, SASS, React",
             "github": "https://github.com/Manneta-Othman",
             "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": ""
+            "img": "assets/project3.png"
         }
             ]
