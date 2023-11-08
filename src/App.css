@@ -10,6 +10,27 @@
     scroll-behavior: smooth;
 }
 
+button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    outline: none;
+    border: none;
+    background-color: #e3e3e3;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -31,7 +52,7 @@ section{
 .heading p{
     color: #666;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -48,11 +69,10 @@ section{
 .navbar{
     position: fixed;
     width: 100%;
-    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 9%;
+    padding: 0 9%;
     background-color: #f1f1f1;
     border-bottom: 1px solid #e3e3e3;
     z-index: 100;
@@ -76,11 +96,19 @@ section{
     column-gap: 30px;
 }
 
-.navbar .nav-links li a{
+.navbar .nav-links li{
+    padding: 25px 0;
+}
+
+.navbar .nav-links li.active{
+    border-bottom: 2px solid #E70FAA;
+}
+
+.navbar .nav-links a{
     color: #666666;
 }
 
-.navbar .nav-links li a:hover{
+.navbar .nav-links > a:hover{
     color: #13B0F5;
 }
 
@@ -88,17 +116,16 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 
 .nav-icons a{
-    font-size: 25px;
-    line-height: 25px;
     width: 25px;
     height: 25px;
     color: #666666;
     border-radius: 50%;
-    margin-right: 15px;
+    transition: .3s ease;
 
 }
 
@@ -108,10 +135,9 @@ section{
 }
 
 .nav-icons .icon{
-    text-align: center;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    font-size: 25px;
-    margin-right: 5px;
 }
 
 #menu-icon{
@@ -135,6 +161,8 @@ section{
 
 
 @media screen and (max-width: 800px) {
+
+
     #menu-icon{
         display: block;
     }
@@ -144,23 +172,42 @@ section{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
-        background: #42446E;
+        justify-content: center;
+        background: #f1f1f1;
         width: 100%;
+        padding: 40px 0;
         top: 70px;
         right: 0;
-        padding: 50px;
         z-index: 10;
-        transition: .5s ease;
         opacity: 0;
+        visibility: hidden;
+        transition: .5s ease;
     }
 
     .navbar .nav-links.active{
+        visibility: visible;
         opacity: 1;
     }
 
     .navbar .nav-links a{
-        color: #fff !important;
+        color: #42446E !important;
+    }
+
+    .navbar .nav-links > a{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: #f1f1f1;
+    }
+
+    .navbar .nav-links > a:hover{
+        color: #13B0F5 !important;
+        background: #fff;
+    }
+
+    .nav-icons{
+        margin-top: 25px;
     }
 }
 
@@ -175,6 +222,7 @@ section{
         display: none;
     }
 }
+
 /***************
 Home Section 
  ************/
@@ -255,12 +303,17 @@ Skills Section
     background-color: #f1f1f1;
 }
 
-.skills .container{
+.skills-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .skills .images{
+    width: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(5, 100px);
     justify-content: center;
@@ -268,14 +321,29 @@ Skills Section
     flex-wrap: wrap;
     padding: 10px;
     gap: 50px 100px;
+    margin-bottom: 50px;
 }
 
 .skills .images img{
-    width: 100%;
-    height: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
     object-fit: fill;
     border-radius: 5px;
-    box-shadow: 0 0 15px #666;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.discover-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.discover-more a{
+    color: #666666;
+}
+.discover-more a:hover, .discover-more:hover{
+    font-weight: 500;
 }
 
 
@@ -290,6 +358,7 @@ Project Section
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
 .project-container{
@@ -302,18 +371,18 @@ Project Section
 }
 
 .projects .project{
-    max-width: 373px;
+    max-width: 350px;
     max-height: fit-content;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #FFF;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .project .image{
     position: relative;
-    width: 373px;
+    max-width: 350px;
     height: 223px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     cursor: pointer;
 }
 
@@ -322,10 +391,8 @@ Project Section
     content: '';
     width: 100%;
     height: 0;
-    background-color: #000;
-    border-radius: 20px 20px 0px 0px;
-    opacity: 0.5;
-    transition: .3s ease;
+    border-radius: 10px 10px 0px 0px;
+    transition: .5s ease;
 }
 
 .project .image:hover::before{
@@ -333,16 +400,14 @@ Project Section
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #000;
-    border-radius: 20px 20px 0px 0px;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px 10px 0px 0px;
 }
 
 .project .image img{
     width: 100%;
     height: 100%;
-    object-fit: fit;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .project .image .img-icon{
@@ -352,7 +417,7 @@ Project Section
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    color: #fff;
+    color: #e3e3e3;
 }
 
 .project .image:hover .img-icon{
@@ -360,7 +425,7 @@ Project Section
 }
 
 .project .image .img-icon:hover{
-    color: #13B0F5;
+    color: #fff;
 }
 
 .project .content{
@@ -373,33 +438,35 @@ Project Section
 }
 
 .project .content .title{
-    color: #000;
-    font-size: 28px;
-    font-weight: 500;
+    color: #2189b5;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 26px;
 }
 
 .project .content .desc{
+    height: 100px;
     color: var(--dark-content, #666);
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 22px;
+    letter-spacing: .5px;
 }
 
 .project .content .tech{
-    color: #42446E;
-    font-size: 14px;
+    color: #666666;
+    font-size: 13px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 26px; /* 162.5% */
 }
 
 .project .content .tech span{
-    color: #42446E;
-    font-size: 16px;
+    color: #2189b5;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 26px; /* 162.5% */
 }
 
@@ -417,17 +484,17 @@ Project Section
 
 .content .links a{
     color: #000;
-    font-family: Poppins;
-    font-size: 16px;
+    font-family: 'Poppins';
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 22px; /* 162.5% */
     text-decoration-line: underline;
     margin-left: 10px;
 }
 
 .content .links a:hover{
-    color: #13B0F5;
+    color: #666666;
 }
 
 .project .project-icon{
@@ -435,6 +502,10 @@ Project Section
     height: 20px;
 }
 
+.explore{
+    display: flex;
+    gap: 20px;
+}
 
 /***************
 Footer Design
@@ -462,10 +533,11 @@ footer .footer-top .contact{
 
 .footer-top p{
     margin: 0 33px;
-    color: #42446E;
+    color: #666666;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
+    letter-spacing: 1.2px;
 }
 
 .footer-top .contact a{
@@ -476,7 +548,7 @@ footer .footer-top .contact{
     font-size: 25px;
     border-radius: 50%;
     margin-left:20px;
-    color: #42446E;
+    color: #666666;
 }
 
 .footer-top .icon:hover{
@@ -507,7 +579,7 @@ footer .footer-top .contact{
 }
 
 .footer-bottom ul a, .bottom-right p{
-    color: var(--solid-heading, #42446E);
+    color: var(--solid-heading, #666666);
     font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
@@ -594,6 +666,9 @@ About Design
 .about .container img{
     width: 80px;
     height: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 /***************
@@ -618,6 +693,14 @@ Contact Design
 }
 
 
+
+/***************
+Not Found Page Design 
+ ************/
+
+.not-found-page{
+    padding-top: 180px;
+}
 
 
 
@@ -649,7 +732,6 @@ Media Query
     }
     .heading p{
         font-size: 26px;
-        margin-bottom: 80px;
     }
 
 
@@ -665,7 +747,7 @@ Media Query
     }
 
     .skills .images{
-        grid-template-columns: repeat(4, 90px);
+        display: flex;
         gap: 90px;
     }
 
@@ -734,7 +816,6 @@ Media Query
     .home .container{
         display: flex;
         flex-direction: column;
-        gap: 100px;
     }
 
     .header .content h1{
@@ -885,7 +966,7 @@ Media Query
         font-weight: 400;
         line-height: 26px;
     }
-
+    
 }
 
 
