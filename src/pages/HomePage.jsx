@@ -23,7 +23,7 @@ import { BsArrowRight, BsBoxArrowInUpRight, BsGithub } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 
-export const Home = () => {
+ const HomePage = () => {
     return (
         <div id="home" className='home'>
             <section className="header">
@@ -89,3 +89,6 @@ export const Home = () => {
         </div>
     )
 }
+
+
+export default HomePage

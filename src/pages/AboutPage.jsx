@@ -18,7 +18,7 @@ import express from '../assets/express.svg';
 import next from '../assets/next.png';
 
 
-export function About() {
+export default function AboutPage() {
   return (
     <section className='about'>
         <div className="about-me">

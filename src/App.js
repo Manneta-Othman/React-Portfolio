@@ -2,13 +2,16 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 
 import { Navbar } from './components/Navbar';
-import { Home } from './pages/HomePage';
-import { Default } from './pages/DefaultPage';
-import { About } from './pages/AboutPage';
 import { Footer } from './components/Footer';
-import { Contact } from './pages/ContactPage';
 import SkillsPage from './pages/SkillsPage';
 import ProjectsPage from './pages/ProjectsPage';
+import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
+import AboutPage from './pages/AboutPage';
+import DefaultPage from './pages/DefaultPage';
+
+
+
 
 
 function App() {
@@ -17,12 +20,12 @@ function App() {
       <>
         <Navbar />
         <Routes>
-          <Route index path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route index path='/' element={<HomePage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route path='/contact' element={<ContactPage />} />
           <Route path='/skills' element={<SkillsPage />} />
           <Route path='/projects' element={<ProjectsPage />} />
-          <Route path='*' element={<Default />} />
+          <Route path='*' element={<DefaultPage />} />
         </Routes>
         <Footer />
       </>
