@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+=======
+
+
+.skills-page-container{
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 600px);
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.skills-intro{
+  max-width: 880px;
+}
+>>>>>>> skillspage

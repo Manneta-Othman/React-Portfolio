@@ -161,6 +161,13 @@ section{
 
 
 @media screen and (max-width: 800px) {
+<<<<<<< HEAD
+=======
+    .navbar{
+        padding: 10px 7%;
+    }
+
+>>>>>>> skillspage
     #menu-icon{
         display: block;
     }
@@ -180,10 +187,16 @@ section{
         padding: 40px 0;
         top: 70px;
         right: 0;
+<<<<<<< HEAD
         padding: 50px;
         z-index: 10;
         transition: .5s ease;
         opacity: 0;
+=======
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s ease;
+>>>>>>> skillspage
     }
 
     .navbar .nav-links.active{
@@ -191,8 +204,38 @@ section{
         opacity: 1;
     }
 
+<<<<<<< HEAD
     .navbar .nav-links a{
         color: #fff !important;
+=======
+
+    .navbar .nav-links > li{
+        width: 100%;
+        height: 50px;
+        padding:  0;
+        line-height: 50px;
+        text-align: center;
+        color: #666666 !important;
+        background: #f1f1f1;
+        border: none;
+        cursor: pointer;
+    }
+
+    .nav-links li.active{
+        background: #fff;
+        border-bottom: none !important;
+    }
+
+
+
+    .navbar .nav-links > li:hover{
+        color: #13B0F5 !important;
+        background: #e3e3e3;
+    }
+
+    .nav-icons{
+        margin-top: 25px;
+>>>>>>> skillspage
     }
 }
 
@@ -355,19 +398,32 @@ Project Section
     gap: 60px;
 }
 
+<<<<<<< HEAD
 .projects .project{
     max-width: 373px;
     max-height: fit-content;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.20);
+=======
+.project{
+    max-width: 350px;
+    max-height: fit-content;
+    background: #FFF;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+>>>>>>> skillspage
 }
 
 .project .image{
     position: relative;
     max-width: 350px;
     height: 223px;
+<<<<<<< HEAD
     border-radius: 20px 20px 0px 0px;
+=======
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+>>>>>>> skillspage
     cursor: pointer;
 }
 
@@ -376,10 +432,15 @@ Project Section
     content: '';
     width: 100%;
     height: 0;
+<<<<<<< HEAD
     background-color: #000;
     border-radius: 20px 20px 0px 0px;
     opacity: 0.5;
     transition: .3s ease;
+=======
+    transition: .5s ease;
+    z-index: 1;
+>>>>>>> skillspage
 }
 
 .project .image:hover::before{
@@ -387,16 +448,23 @@ Project Section
     content: '';
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     background-color: #000;
     border-radius: 20px 20px 0px 0px;
     opacity: 0.5;
+=======
+    background-color: rgba(0, 0, 0, 0.5);
+>>>>>>> skillspage
 }
 
 .project .image img{
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     object-fit: fit;
     border-radius: 20px 20px 0px 0px;
+=======
+>>>>>>> skillspage
 }
 
 .project .image .img-icon{
@@ -406,7 +474,12 @@ Project Section
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #e3e3e3;
+    z-index: 2;
+>>>>>>> skillspage
 }
 
 .project .image:hover .img-icon{
@@ -414,7 +487,7 @@ Project Section
 }
 
 .project .image .img-icon:hover{
-    color: #fff;
+    color: #13B0F5;
 }
 
 .project .content{
