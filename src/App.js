@@ -1,5 +1,4 @@
 import './App.css';
-
 import { Routes, Route } from "react-router-dom";
 
 import { Navbar } from './components/Navbar';
@@ -25,9 +24,7 @@ function App() {
           <Route path='/projects' element={<ProjectsPage />} />
           <Route path='*' element={<Default />} />
         </Routes>
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </>
     </div>
   );
