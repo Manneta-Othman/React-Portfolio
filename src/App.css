@@ -280,10 +280,24 @@ Home Section
 }
 
 .header .container .image{
+    position: relative;
     flex: 2;
     max-width: 389px;
     max-height: 389px;
     animation: floatImage 4s ease-in-out infinite;
+}
+
+.header .container .image:after{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    content: '';
+    z-index: 11;
 }
 
 @keyframes floatImage {
