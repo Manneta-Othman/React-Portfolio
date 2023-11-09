@@ -23,7 +23,7 @@ export default function ProjectsPage() {
   useEffect(() => {
     getData();
   }, []);
-//comment
+
   return (
     <section>
       <div className="projects-page">
