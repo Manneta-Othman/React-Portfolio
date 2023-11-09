@@ -19,7 +19,9 @@ export const Navbar = () => {
             if (!menuRef.current.contains(e.target)) {
                 setOpenMenu(false)
             }
-
+            if(path !== window.location.pathname){
+                setOpenMenu(false)
+            }
         }
 
         document.addEventListener('mousedown', clickOutside)
