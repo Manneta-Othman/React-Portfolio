@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Heading } from '../components/Heading';
 import { SingleProject } from '../components/SingleProject';
+import './projects-page.style.css'
 
 export default function ProjectsPage() {
 

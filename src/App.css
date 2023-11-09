@@ -250,7 +250,7 @@ Home Section
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 150px;
 }
 
 .header .container .content{
@@ -393,7 +393,7 @@ Project Section
 
 .project .image{
     position: relative;
-    max-width: 350px;
+    width: 100%;
     height: 223px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -767,8 +767,7 @@ Media Query
         gap: 50px;
     }
     
-    .projects .project,
-    .project .image{
+    .projects .project{
         max-width: 343px;
     }
     
@@ -849,8 +848,7 @@ Media Query
             gap: 40px;
         }
         
-        .projects .project,
-        .project .image{
+        .projects .project{
             max-width: 303px;
         }
         
@@ -935,8 +933,7 @@ Media Query
     .project-container{
         gap: 20px;
     }
-    .projects .project,
-    .project .image{
+    .projects .project{
         max-width: 270px;
     }
 
