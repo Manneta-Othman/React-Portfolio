@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { Heading } from '../components/Heading';
+import { SingleProject } from '../components/SingleProject';
 
 export default function ProjectsPage() {
 
