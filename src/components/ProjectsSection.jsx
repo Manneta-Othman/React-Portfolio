@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import { SingleProject } from './SingleProject';
 import {useState, useEffect } from 'react';
 
@@ -38,4 +36,3 @@ export const Projects = () => {
 
   )
 }
->>>>>>> skillspage

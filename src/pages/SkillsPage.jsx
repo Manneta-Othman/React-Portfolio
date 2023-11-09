@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import { Card } from './../components/card';
 import React, { useEffect, useState } from 'react'
 import { Heading } from '../components/Heading'
@@ -55,4 +53,3 @@ export default function SkillsPage() {
     </section>
   )
 }
->>>>>>> skillspage

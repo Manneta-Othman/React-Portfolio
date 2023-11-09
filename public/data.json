@@ -2,52 +2,26 @@
     [
         {
             "id": 1,
-<<<<<<< HEAD
-            "title": "My project 1",
-            "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/project1.png"
-=======
             "title": "Restaunt Landing Page",
             "desc": "Responsive restaurant landing page developed with React, offering an enticing visual experience and seamless navigation for potential customers.",
             "tech": "React.js",
             "github": "",
             "preview": "",
             "img": "assets/video/thumb/react/restaurant-thumb.png"
->>>>>>> skillspage
         },
 
         {
             "id": 2,
-<<<<<<< HEAD
-            "title": "My project 2",
-            "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/project2.png"
-=======
             "title": "Travel Landing Page",
             "desc": "Visually appealing tour and travel landing page crafted with HTML, CSS, and JavaScript, providing an immersive preview of travel destinations.",
             "tech": "HTML - CSS - JavaScript",
             "github": "",
             "preview": "",
             "img": "assets/video/thumb/html&css/travel-thumb.png"
->>>>>>> skillspage
         },
 
         {
             "id": 3,
-<<<<<<< HEAD
-            "title": "My project 3",
-            "desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-            "tech": "HTML , JavaScript, SASS, React",
-            "github": "https://github.com/Manneta-Othman",
-            "preview": "https://www.linkedin.com/in/othman-manneta-504293204/",
-            "img": "assets/project3.png"
-=======
             "title": "GPT-3 Landing Page",
             "desc": "Captivating landing page designed with React, emphasizing features and capabilities of GPT-3, showcasing prowess in visually appealing promotional pages",
             "tech": "React.js",
@@ -152,6 +126,5 @@
             "github": "",
             "preview": "",
             "img": "assets/video/thumb/typescript/matching-cards-thumb.png"
->>>>>>> skillspage
         }
             ]

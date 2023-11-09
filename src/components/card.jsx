@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React, { useState } from "react";
 import './card.css'
 
@@ -67,4 +65,3 @@ export function Card({ tech, setIsPopupOpen }) {
     </div>
   </div>;
 }
->>>>>>> skillspage

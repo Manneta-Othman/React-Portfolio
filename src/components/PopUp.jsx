@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import './pop-up.style.css'
 
 import closeICon from '../assets/close-icon.svg'
@@ -70,4 +69,3 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
     </div>
   );
 }
->>>>>>> skillspage
