@@ -79,8 +79,8 @@ export const Home = () => {
                 </div>
 
                 <div className="explore">
-                    <Link to="/projects"><button>Explore More Projects <BsBoxArrowInUpRight /></button></Link>
-                    <Link to="https://github.com/Manneta-Othman?tab=repositories"><button>Explore More Repositories <BsGithub /> </button></Link>
+                    <Link to="/projects"><button>Projects ShowCase <BsBoxArrowInUpRight className='explor-icon' /></button></Link>
+                    <Link to="https://github.com/Manneta-Othman?tab=repositories"><button>Projects Repositories <BsGithub className='explor-icon' /> </button></Link>
                 </div>
 
             </section>

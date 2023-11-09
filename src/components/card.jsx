@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './card.css'
+import { BsChevronDoubleDown, BsChevronDoubleUp } from "react-icons/bs";
 
 
 export function Card({ tech, setIsPopupOpen }) {
@@ -17,7 +18,7 @@ export function Card({ tech, setIsPopupOpen }) {
 
 
   return <div className="card">
-    <div className="top" onClick={() => dropDown(tech.lg)}>
+    <div className="top" >
       {
         typeof tech.icon === 'object' ?
           <>
@@ -36,8 +37,11 @@ export function Card({ tech, setIsPopupOpen }) {
             <h1>{tech.lg}</h1>
           </div>
       }
-
     </div>
+    {/* Explore More */}
+    <p className={isCardOpen === tech.lg ? "card-btn closed" : "card-btn"} onClick={() => dropDown(tech.lg)} >Explore <BsChevronDoubleDown /> </p>
+
+    {/* Bottom side of the card */}
     <div className={isCardOpen === tech.lg ? "bottom open" : "bottom"}>
       <div className="desc">
         <h2>Description</h2>
@@ -50,18 +54,19 @@ export function Card({ tech, setIsPopupOpen }) {
             {tech.projects ?
               <>
                 {tech.statement} <span onClick={handlePopUpProjects}> Clicking Here</span>
-              </> 
+              </>
               :
               <>
                 {tech.statement}
 
-                { tech.link && <a href={tech.link} rel="noreferrer" target='_blank' > Clicking Here</a>
+                {tech.link && <a href={tech.link} rel="noreferrer" target='_blank' > Clicking Here</a>
                 }
               </>}
           </p>
         </div>
       </div>
       <div className="certification">Certification</div>
+      <p className="card-close-btn" onClick={() => dropDown(tech.lg)} >Hide <BsChevronDoubleUp /> </p>
     </div>
   </div>;
 }
