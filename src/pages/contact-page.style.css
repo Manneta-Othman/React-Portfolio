@@ -40,7 +40,6 @@
 .contact-form textarea{
   width: 100%;
   min-height: 200px;
-  height: auto;
   padding: 15px 20px;
   margin-bottom: 20px;
   border: none;
@@ -236,6 +235,10 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+  }
+
+  .contact-form textarea{
+    min-height: 150px;
   }
 
 }
