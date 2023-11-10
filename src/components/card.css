@@ -62,9 +62,9 @@
 .card h1{
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 42px; 
-  letter-spacing: -0.4px;
+  letter-spacing: 1px;
   color: #f1f1f1;
 }
 

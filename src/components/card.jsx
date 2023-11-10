@@ -9,7 +9,7 @@ export function Card({ tech, setIsPopupOpen }) {
 
 
   function dropDown(name) {
-    isCardOpen.includes(name) ? setIsCardOpen('') : setIsCardOpen(name)
+    isCardOpen.includes(name) ? setIsCardOpen([]) : setIsCardOpen(name)
   }
 
   function handlePopUpProjects() {

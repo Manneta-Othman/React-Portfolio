@@ -456,7 +456,7 @@ Project Section
 
 .project .content .desc{
     height: 100px;
-    color: var(--dark-content, #666);
+    color: #666;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -718,9 +718,23 @@ Not Found Page Design
 }
 
 
-
-
-
+/*  */
+.intro{
+    align-self: center;
+    max-width: 700px;
+    color: #666;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #f1f1f1;
+    padding: 20px;
+    border-bottom: 3px solid #E70FAA;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
 
 
 
@@ -811,6 +825,10 @@ Media Query
         align-items: center;
     }
 
+    /* Intro */
+    .intro{
+    font-size: 18px;
+    }
 }
 
 
@@ -898,6 +916,11 @@ Media Query
         flex-direction: column;
         align-items: center;
     }
+
+    /* Intro */
+    .intro{
+        font-size: 16px;
+        }
 }
 
 
@@ -982,7 +1005,11 @@ Media Query
         font-weight: 400;
         line-height: 26px;
     }
-    
+
+    /* Intro */
+    .intro{
+        font-size: 14px;
+        }
 }
 
 

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Heading } from '../components/Heading'
 import './skills-page.style.css'
 import { PopUp } from '../components/PopUp';
+import { Intro } from '../components/intro';
 
 
 
@@ -34,9 +35,7 @@ export default function SkillsPage() {
     <section>
       <div className="skills-page-container">
         <Heading title='My Tech Skills' />
-
-        <h2>Introduction:</h2>
-        <p className='skills-intro'> Hello there! 👋 I'm Othman Manneta, a passionate front-end web developer on a mission to transform creative ideas into captivating digital experiences. I've curated this space to showcase my technical prowess, inviting potential employers into my world of web development wizardry.</p>
+        <Intro text="Hello there! 👋 I'm Othman Manneta, a passionate front-end web developer on a mission to transform creative ideas into captivating digital experiences. I've curated this space to showcase my technical prowess, inviting potential employers into my world of web development wizardry." />
 
         <div className="cards-container">
           {
