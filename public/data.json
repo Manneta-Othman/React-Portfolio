@@ -5,8 +5,8 @@
             "title": "Restaunt Landing Page",
             "desc": "Responsive restaurant landing page developed with React, offering an enticing visual experience and seamless navigation for potential customers.",
             "tech": "React.js",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Restaurant-Website",
+            "preview": "https://manneta-restaurant.netlify.app/",
             "img": "assets/video/thumb/react/restaurant-thumb.png"
         },
 
@@ -15,8 +15,8 @@
             "title": "Travel Landing Page",
             "desc": "Visually appealing tour and travel landing page crafted with HTML, CSS, and JavaScript, providing an immersive preview of travel destinations.",
             "tech": "HTML - CSS - JavaScript",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Tour-Website",
+            "preview": "https://manneta-tourism.netlify.app/",
             "img": "assets/video/thumb/html&css/travel-thumb.png"
         },
 
@@ -25,8 +25,8 @@
             "title": "GPT-3 Landing Page",
             "desc": "Captivating landing page designed with React, emphasizing features and capabilities of GPT-3, showcasing prowess in visually appealing promotional pages",
             "tech": "React.js",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/GPT3-Website",
+            "preview": "https://manneta-gpt-3.netlify.app/",
             "img": "assets/video/thumb/react/gpt3-thumb.png"
         },
         {
@@ -34,8 +34,8 @@
             "title": "Sushi Landing Page",
             "desc": "Vibrant sushi landing page capturing sushi culture, designed with HTML, CSS, and JavaScript, focusing on visually appealing restaurant showcases.",
             "tech": "HTML - CSS - JavaScript",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Sushi-Website",
+            "preview": "https://manneta-sushi.netlify.app/",
             "img": "assets/video/thumb/html&css/sushi-thumb.png"
         },
 
@@ -44,8 +44,8 @@
             "title": "Budget Calculator",
             "desc": "User-friendly budget management application built with React, showcasing skills in state management, data visualization, and practical web tools.",
             "tech": "HTML - CSS - JavaScript",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Budget-Calculator",
+            "preview": "https://manneta-budget-calc.netlify.app/",
             "img": "assets/video/thumb/js/budget-calculator-thumb.png"
         },
 
@@ -54,8 +54,8 @@
             "title": "Medical Services",
             "desc": "Comprehensive medical website showcasing complex features and functionalities developed with React, highlighting proficiency in intricate web projects.",
             "tech": "React.js",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Medical-Website",
+            "preview": "https://manneta-medical-services.netlify.app/",
             "img": "assets/video/thumb/react/medical-services-thumb.png"
         },
         {
@@ -63,8 +63,8 @@
             "title": "Rock-Paper-Scissors Game",
             "desc": "lassic game implementation showcasing front-end game development skills using HTML, CSS, and Vanilla JavaScript.",
             "tech": "HTML , CSS, JavaScript",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Rock-Paper-Scissors-Game",
+            "preview": "https://manneta-rock-paper-scissor.netlify.app/",
             "img": "assets/video/thumb/js/rock-paper-scissors-thumb.png"
         },
 
@@ -73,58 +73,48 @@
             "title": "Tic Tac Toe Game",
             "desc": "Strategic tic-tac-toe game crafted with HTML, CSS, and Vanilla JavaScript, highlighting interactive web game development expertise.",
             "tech": "HTML, CSS, Vanilla JavaScript",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Tic-Tac-Toe-Game",
+            "preview": "https://manneta-tic-tac-toe.netlify.app/",
             "img": "assets/video/thumb/js/tic-tac-toe-thumb.png"
         },
 
         {
             "id": 9,
-            "title": "Ping Pong Game",
-            "desc": "",
-            "tech": "HTML, CSS, Vanilla JavaScript",
-            "github": "",
-            "preview": "",
-            "img": "assets/video/thumb/js/ping-pong-thumb.png"
-        },
-
-        {
-            "id": 10,
             "title": "Taking Notes ",
-            "desc": "",
+            "desc": "Practical notes application developed with React and TypeScript, highlighting skills in creating efficient and organized web tools.",
             "tech": "TypeScript - Bootstrap",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Notes-React-App",
+            "preview": "https://manneta-notes-taking.netlify.app/",
             "img": "assets/video/thumb/typescript/taking-notes-thumb.png"
         },
 
         {
-            "id": 11,
+            "id": 10,
             "title": "Shopping Cart ",
-            "desc": "",
+            "desc": "Explore a dynamic shopping experience with my TypeScript-powered shopping cart. This project seamlessly blends functionality and style for an enhanced shopping journey.",
             "tech": "TypeScript - Bootstrap",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/shopping-cart",
+            "preview": "https://manneta-shopping-cart.netlify.app/",
             "img": "assets/video/thumb/typescript/shopping-cart-thumb.png"
         },
 
         {
-            "id": 12,
+            "id": 11,
             "title": "Dream House",
-            "desc": "",
-            "tech": "HTML , CSS, Bootstrap",
-            "github": "",
-            "preview": "",
+            "desc": "Explore Dream House, a visually striking project designed exclusively with Bootstrap for a seamless and stylish web experience.",
+            "tech": "Bootstrap, Vanilla JavaScript",
+            "github": "https://github.com/Manneta-Othman/Bootstrap5-Landing-Page",
+            "preview": "https://manneta-dream-house.netlify.app/",
             "img": "assets/video/thumb/bootstrap/dream-house-thumb.png"
         },
 
         {
-            "id": 13,
+            "id": 12,
             "title": "Matching Cards Game",
             "desc": "Interactive memory card game demonstrating expertise in creating engaging user experiences using HTML, CSS, React, and TypeScript.",
             "tech": "HTML - CSS - TypeScript",
-            "github": "",
-            "preview": "",
+            "github": "https://github.com/Manneta-Othman/Memory-Card",
+            "preview": "https://manneta-memory-cards.netlify.app/",
             "img": "assets/video/thumb/typescript/matching-cards-thumb.png"
         }
             ]
