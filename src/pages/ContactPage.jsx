@@ -50,8 +50,8 @@ export default function ContactPage() {
 
 
   return (
-    <section className='contact-page'>
-      <>
+    <section>
+      <div className='contact-page'>
         <Heading title='Get in Touch' />
 
         <Intro text="Welcome to the contact page. If you have inquiries, collaboration proposals, or any professional matters you'd like to discuss, please use the form below. Your message is valuable, and I will promptly attend to it." />
@@ -71,8 +71,9 @@ export default function ContactPage() {
           </button>
         </form>
 
-      </>
-    </section >
+      </div >
+      
+    </section>
   )
 }
 
