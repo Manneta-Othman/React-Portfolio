@@ -11,8 +11,9 @@ export const Footer = () => {
                     <a href="/" className='logo'>Manneta</a>
                     <div className="contact">
                         <p> +21249932423</p>
-                        <p>Othman.Manneta@gmail.com</p>
-
+                        <a href="mailto: Othman.Manneta@gmail.com" >
+                            <p>Othman.Manneta@gmail.com</p>
+                        </a>
                         <div className="icons">
                             <a href="https://github.com/Manneta-Othman" target='_blank' rel="noreferrer"><BsGithub className='icon' /></a>
                             <a href="https://www.linkedin.com/in/othman-manneta/" target='_blank' rel="noreferrer"><BsLinkedin className='icon' /></a>

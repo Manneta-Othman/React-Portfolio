@@ -65,7 +65,7 @@ export function Card({ tech, setIsPopupOpen }) {
           </p>
         </div>
       </div>
-      <div className="certification">Certification</div>
+      <div className="certification" title="cert">Certification</div>
       <p className="card-close-btn" onClick={() => dropDown(tech.lg)} >Hide <BsChevronDoubleUp /> </p>
     </div>
   </div>;

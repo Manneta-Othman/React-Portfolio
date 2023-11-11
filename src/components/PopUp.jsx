@@ -59,7 +59,6 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
     <div className={isPopupOpen ? "popup open" : "popup"} >
       {skill?.projects &&
         (<div className="popup-container" ref={popupRef}>
-          <img src={closeICon} alt="" onClick={() => setIsPopupOpen(null)} />
           <div className="project-media">
             {
               <>

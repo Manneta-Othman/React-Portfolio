@@ -43,7 +43,6 @@
   width: 30px;
   margin-bottom: 10px;
   background-color: #fff;
-  border-radius: 5px;
 }
 
 .project-media{
@@ -54,7 +53,8 @@
 .project-media video{
   width: 100%;
   height: 100%;
-  border-radius: 5px 5px 0 0;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
 }
 
 
@@ -66,9 +66,9 @@
   gap: 10px;
   width: 90%;
   padding: 10px;
-  border-radius: 0 0 5px 5px;
   background-color: #f1f1f1;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border: 2px solid lightgrey;
+  border-radius: 2px;
 }
 
 .project-item{
@@ -78,7 +78,7 @@
   height: 100%;
   width: fit-content;
   transform: scale(0.9);
-  opacity: 0.5;
+  filter: brightness(0.5);
   transition: .3s ease;
   cursor: pointer;
 }
@@ -87,11 +87,11 @@
   margin: 0 5px;
   transform: scale(1);
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
-  opacity: 1;
+  filter: brightness(1);
 }
 
 .project-item img{
-  width: 100px;
+  width: 200px;
 }
 
 video{
