@@ -32,7 +32,7 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
   const skill = useMemo(() => {
     setProjectNum(0)
     return tech?.find(t => t.id === isPopupOpen)
-  }, [isPopupOpen])
+  }, [tech, isPopupOpen])
 
 
   const projectShown = () => {
@@ -42,7 +42,7 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
   useEffect(() => {
     videoPlayer.current?.load()
     projectShown()
-  }, [projectNum])
+  }, [skill, projectNum])
 
 
 console.log(projectShown())
