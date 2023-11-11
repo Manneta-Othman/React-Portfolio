@@ -34,7 +34,7 @@ export default function ProjectsPage() {
         <div className="projects-container">
           {
             data && data.map(d => (
-              <SingleProject data={d} />
+              <SingleProject key={d.id} data={d} />
             ))
           }
         </div>

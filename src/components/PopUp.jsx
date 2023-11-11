@@ -2,7 +2,7 @@
 import './pop-up.style.css'
 
 import closeICon from '../assets/close-icon.svg'
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 
 export function PopUp({ isPopupOpen, setIsPopupOpen }) {
@@ -10,6 +10,7 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
 
   const [tech, setTech] = useState();
   const [projectNum, setProjectNum] = useState(0)
+  const videoPlayer = useRef()
 
   const getSkills = () => {
     fetch('/skills.json', {
@@ -20,39 +21,54 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
     }).then((response) => {
       return response.json()
     }).then((skills) => {
-      setTech(skills.find(s => s.id === isPopupOpen));
+      setTech(skills);
     })
   }
   useEffect(() => {
-    getSkills();
+    getSkills()
+  }, []);
 
-    // eslint-disable-next-line
-  }, [isPopupOpen]);
 
+  const skill = useMemo(() => {
+    setProjectNum(0)
+    return tech?.find(t => t.id === isPopupOpen)
+  }, [isPopupOpen])
+
+
+  const projectShown = () => {
+    return skill?.projects[projectNum].projectVideo
+  }
+
+  useEffect(() => {
+    videoPlayer.current?.load()
+    projectShown()
+  }, [projectNum])
+
+
+console.log(projectShown())
 
   return (
     <div className={isPopupOpen ? "popup open" : "popup"}>
-      {tech?.projects &&
+      {skill?.projects &&
         (<div className="popup-container">
           <img src={closeICon} alt="" onClick={() => setIsPopupOpen('')} />
           <div className="project-media">
             {
-              tech.projects?.map((p, index) => (
                 <>
                   <video
-                    key={p.projectThumb}
+                    key={skill.id}
                     controls
-                    className={projectNum === index ? 'active' : ''}
+                    className='active'
+                    ref={videoPlayer}
                     >
-                    <source src={p.projectVideo} type="video/mp4" />
+                    <source src={projectShown()} type="video/mp4" />
                   </video>
                 </>
-              ))
             }
           </div>
           <div className="projects-list">
             {
-              tech.projects?.map((p, index) => (
+              skill.projects?.map((p, index) => (
                 <div
                   key={p.projectVideo}
                   className={projectNum === index ? "project-item selected" : "project-item"}

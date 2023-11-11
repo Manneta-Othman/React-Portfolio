@@ -70,7 +70,6 @@ import { Link } from 'react-router-dom';
 
             {/******** Projects Section Starts *********/}
             <section id="projects" className="projects">
-
                 <div>
                     <Heading title='My Tech Stack' subtitle=" Things I've built so far" />
                 </div>

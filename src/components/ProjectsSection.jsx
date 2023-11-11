@@ -30,7 +30,7 @@ export const Projects = () => {
         <>
             {data && data.slice(0, 3).map(d => (
 
-                <SingleProject data={d} />
+                <SingleProject key={d.id} data={d} />
 
             ))
             }

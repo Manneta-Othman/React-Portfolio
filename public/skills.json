@@ -30,11 +30,8 @@
     "lg": "SASS", 
     "icon": "assets/sass.svg", 
     "desc": "Sass enhances my CSS stylesheets with features like variables, nesting, and mixins. It ensures maintainable and organized designs, adding elegance to every interface. Its flexibility empowers me to implement complex designs with ease.",
-    "projects": [
-      {"projectName": "Project 1", "projectThumb": "assets/video/thumb/html-project1-thumb.png", "projectVideo": "assets/video/html-project1.mp4"}
-    ],
     "certifImg": "",
-    "statement": "You could explore my projects using SASS by",
+    "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
     "id": 3
   },
   {
