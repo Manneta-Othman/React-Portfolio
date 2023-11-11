@@ -35,18 +35,15 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
   }, [tech, isPopupOpen])
 
 
-  const projectShown = () => {
-    return skill?.projects[projectNum].projectVideo
-  }
-
-  useEffect(() => {
+  const projectShown = useMemo(() => {
     videoPlayer.current?.load()
-    projectShown()
+    return skill?.projects[projectNum].projectVideo
   }, [skill, projectNum])
 
 
-console.log(projectShown())
 
+
+console.log(projectShown)
   return (
     <div className={isPopupOpen ? "popup open" : "popup"}>
       {skill?.projects &&
@@ -61,7 +58,7 @@ console.log(projectShown())
                     className='active'
                     ref={videoPlayer}
                     >
-                    <source src={projectShown()} type="video/mp4" />
+                    <source src={projectShown} type="video/mp4" />
                   </video>
                 </>
             }
