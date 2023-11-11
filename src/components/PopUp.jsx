@@ -2,16 +2,18 @@
 import './pop-up.style.css'
 
 import closeICon from '../assets/close-icon.svg'
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { memo, useEffect, useMemo, useRef, useState } from 'react';
 
 
-export function PopUp({ isPopupOpen, setIsPopupOpen }) {
+function PopUp({ isPopupOpen, setIsPopupOpen }) {
 
 
   const [tech, setTech] = useState();
   const [projectNum, setProjectNum] = useState(0)
   const videoPlayer = useRef()
+  const popupRef = useRef()
 
+// fetch the skills from the APi
   const getSkills = () => {
     fetch('/skills.json', {
       headers: {
@@ -28,27 +30,36 @@ export function PopUp({ isPopupOpen, setIsPopupOpen }) {
     getSkills()
   }, []);
 
-
+// get the specific skill in accordance whith user's choice
   const skill = useMemo(() => {
     setProjectNum(0)
     return tech?.find(t => t.id === isPopupOpen)
   }, [tech, isPopupOpen])
 
-
+// Set the selected project whenever changes
   const projectShown = useMemo(() => {
     videoPlayer.current?.load()
     return skill?.projects[projectNum].projectVideo
   }, [skill, projectNum])
 
+// Close Pop Up container when clicking outside
+  useEffect(() => {
+    function outSideClick(e) {
+      if(isPopupOpen == null && !popupRef.current?.contains(e.target)){
+        setIsPopupOpen(null)
+      }
+    }
+    document.addEventListener('mousedown', outSideClick)
+  })
 
 
+  console.log('PopUp renders')
 
-console.log(projectShown)
   return (
-    <div className={isPopupOpen ? "popup open" : "popup"}>
+    <div className={isPopupOpen ? "popup open" : "popup"} >
       {skill?.projects &&
-        (<div className="popup-container">
-          <img src={closeICon} alt="" onClick={() => setIsPopupOpen('')} />
+        (<div className="popup-container" ref={popupRef}>
+          <img src={closeICon} alt="" onClick={() => setIsPopupOpen(null)} />
           <div className="project-media">
             {
                 <>
@@ -82,3 +93,6 @@ console.log(projectShown)
     </div>
   );
 }
+
+
+export default PopUp

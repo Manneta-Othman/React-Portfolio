@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import othman from '../assets/othman.png';
 import html from '../assets/html.svg';
@@ -19,6 +19,22 @@ import next from '../assets/next.png';
 
 
 export default function AboutPage() {
+
+  const [tech, setTech] = useState();
+
+  // fetch the skills from the APi
+    const getSkills = () => {
+      fetch('/skills.json')
+      .then((response) => {
+        return response.json()
+      }).then((skills) => {
+        setTech(skills);
+      })
+    }
+    useEffect(() => {
+      getSkills()
+    }, []);
+
   return (
     <section className='about'>
         <div className="about-me">
@@ -33,21 +49,16 @@ export default function AboutPage() {
         <div className="skills">
             <h1>Skills</h1>
             <div className="container">
-                <img src={html} alt="html" />
-                <img src={css} alt="css" />
-                <img src={js} alt="js" />
-                <img src={react} alt="react" />
-                <img src={bootstrap} alt="bootstrap" />
-                <img src={sass} alt="sass" />
-                <img src={typeScript} alt="typeScript" />
-                <img src={redux} alt="redux" />
-                <img src={git} alt="git" />
-                <img src={github} alt="github" />
-                <img src={nodejs} alt="nodejs" />
-                <img src={mongodb} alt="mongodb" />
-                <img src={express} alt="express" />
-                <img src={npm} alt="npm" />
-                <img src={next} alt="next" />
+            {tech && tech.map(t => (
+            typeof t.icon === 'string' ?
+              <img src={t.icon} alt={t.lg} />
+              : 
+              t.icon.map(i => (
+                <>
+                <img src={i} alt={t.lg} />
+                </>
+              ))
+          ))}
             </div>
         </div>
     </section>

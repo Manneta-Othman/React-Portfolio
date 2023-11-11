@@ -17,7 +17,7 @@ export function Card({ tech, setIsPopupOpen }) {
   }
 
 
-  return <div className="card">
+  return <div className="card" id={tech.lg}>
     <div className="top" >
       {
         typeof tech.icon === 'object' ?

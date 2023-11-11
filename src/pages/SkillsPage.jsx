@@ -2,7 +2,7 @@ import { Card } from './../components/card';
 import React, { useEffect, useState } from 'react'
 import { Heading } from '../components/Heading'
 import './skills-page.style.css'
-import { PopUp } from '../components/PopUp';
+import PopUp from '../components/PopUp';
 import { Intro } from '../components/intro';
 
 
@@ -30,6 +30,7 @@ export default function SkillsPage() {
     getSkills();
   }, []);
 
+  console.log('skills page renders')
 
   return (
     <section>
