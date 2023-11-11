@@ -2,7 +2,7 @@
 import './pop-up.style.css'
 
 import closeICon from '../assets/close-icon.svg'
-import { memo, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 
 function PopUp({ isPopupOpen, setIsPopupOpen }) {
@@ -13,7 +13,7 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
   const videoPlayer = useRef()
   const popupRef = useRef()
 
-// fetch the skills from the APi
+  // fetch the skills from the APi
   const getSkills = () => {
     fetch('/skills.json', {
       headers: {
@@ -30,22 +30,22 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
     getSkills()
   }, []);
 
-// get the specific skill in accordance whith user's choice
+  // get the specific skill in accordance whith user's choice
   const skill = useMemo(() => {
     setProjectNum(0)
     return tech?.find(t => t.id === isPopupOpen)
   }, [tech, isPopupOpen])
 
-// Set the selected project whenever changes
+  // Set the selected project whenever changes
   const projectShown = useMemo(() => {
     videoPlayer.current?.load()
     return skill?.projects[projectNum].projectVideo
   }, [skill, projectNum])
 
-// Close Pop Up container when clicking outside
+  // Close Pop Up container when clicking outside
   useEffect(() => {
     function outSideClick(e) {
-      if(isPopupOpen == null && !popupRef.current?.contains(e.target)){
+      if (isPopupOpen == null && !popupRef.current?.contains(e.target)) {
         setIsPopupOpen(null)
       }
     }
@@ -62,16 +62,16 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
           <img src={closeICon} alt="" onClick={() => setIsPopupOpen(null)} />
           <div className="project-media">
             {
-                <>
-                  <video
-                    key={skill.id}
-                    controls
-                    className='active'
-                    ref={videoPlayer}
-                    >
-                    <source src={projectShown} type="video/mp4" />
-                  </video>
-                </>
+              <>
+                <video
+                  key={skill.id}
+                  controls
+                  className='active'
+                  ref={videoPlayer}
+                >
+                  <source src={projectShown} type="video/mp4" />
+                </video>
+              </>
             }
           </div>
           <div className="projects-list">
