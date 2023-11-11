@@ -1,7 +1,6 @@
 
 import './pop-up.style.css'
 
-import closeICon from '../assets/close-icon.svg'
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 
