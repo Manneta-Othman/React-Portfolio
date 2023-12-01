@@ -5,8 +5,8 @@
     "icon": ["assets/html.svg", "assets/css.svg"], 
     "desc": "Fundamental to my work, these languages are essential for creating elegant interfaces. While some projects include minimal JavaScript, I thrive in crafting intuitive designs using HTML and CSS",
     "projects": [
-      {"projectName": "Travel Landing Page", "projectThumb": "assets/video/thumb/html&css/travel-thumb.png", "projectVideo": "assets/video/html&css/travel-app.mp4"},
-      {"projectName": "Sushi Landing Page", "projectThumb": "assets/video/thumb/html&css/sushi-thumb.png", "projectVideo": "assets/video/html&css/sushi-app.mp4"}
+      {"projectName": "Travel Landing Page", "projectThumb": "assets/video/thumb/html&css/travel-thumb.png", "projectVideo": "https://youtu.be/S1Hx_Wggeew"},
+      {"projectName": "Sushi Landing Page", "projectThumb": "assets/video/thumb/html&css/sushi-thumb.png", "projectVideo": "https://youtu.be/T4ERvfpKx0s"}
     ],
     "certifImg": "",
     "statement": "You could explore my HTML & CSS projects by",
@@ -17,10 +17,10 @@
     "icon": "assets/javascript.svg", 
     "desc": "Dynamic and versatile, JavaScript breathes life into my projects, enabling interactive user experiences and robust functionality. It empowers me to create seamless web applications, from basic interactivity to intricate feature implementations.",
     "projects": [
-      {"projectName": "Budget Calculator", "projectThumb": "assets/video/thumb/js/budget-calculator-thumb.png", "projectVideo": "assets/video/js/budget-calculator.mp4"},
-      {"projectName": "Ping Pong Game", "projectThumb": "assets/video/thumb/js/ping-pong-thumb.png", "projectVideo": "assets/video/js/ping-pong.mp4"},
-      {"projectName": "Rock Paper Scissors Game", "projectThumb": "assets/video/thumb/js/rock-paper-scissors-thumb.png", "projectVideo": "assets/video/js/rock-paper-scissors.mp4"},
-      {"projectName": "Tic Tac Toe Game", "projectThumb": "assets/video/thumb/js/tic-tac-toe-thumb.png", "projectVideo": "assets/video/js/tic-tac-toe.mp4"}
+      {"projectName": "Budget Calculator", "projectThumb": "assets/video/thumb/js/budget-calculator-thumb.png", "projectVideo": "https://youtu.be/2ZllkiyZwBA"},
+      {"projectName": "Ping Pong Game", "projectThumb": "assets/video/thumb/js/ping-pong-thumb.png", "projectVideo": "https://youtu.be/NeBltJmw2Pw"},
+      {"projectName": "Rock Paper Scissors Game", "projectThumb": "assets/video/thumb/js/rock-paper-scissors-thumb.png", "projectVideo": "https://youtu.be/b-7p_Y0FRiQ"},
+      {"projectName": "Tic Tac Toe Game", "projectThumb": "assets/video/thumb/js/tic-tac-toe-thumb.png", "projectVideo": "https://youtu.be/dzK6DaoiG6Y"}
     ],
     "certifImg": "",
     "statement": "You could explore my JavaScript projects by",
@@ -40,8 +40,8 @@
     "desc": "With React.js, I design modular and responsive user interfaces, ensuring a seamless user journey. Its component-based architecture allows me to create engaging web applications, making every interaction meaningful and intuitive.",
     "projects": [
       {"projectName": "Restaunt Landing Page", "projectThumb": "assets/video/thumb/react/restaurant-thumb.png", "projectVideo": "assets/video/react/restaurant-app.mp4"},
-      {"projectName": "GPT-3 Landing Page", "projectThumb": "assets/video/thumb/react/gpt3-thumb.png", "projectVideo": "assets/video/react/gpt3-app.mp4"},
-      {"projectName": "medical-services-app", "projectThumb": "assets/video/thumb/react/medical-services-thumb.png", "projectVideo": "assets/video/react/medical-services-app.mp4"}
+      {"projectName": "GPT-3 Landing Page", "projectThumb": "assets/video/thumb/react/gpt3-thumb.png", "projectVideo": "https://youtu.be/KYwO3Fy8UPU"},
+      {"projectName": "medical-services-app", "projectThumb": "assets/video/thumb/react/medical-services-thumb.png", "projectVideo": "https://youtu.be/50R9BShlDlc"}
     ],
     "certifImg": "",
     "statement": "You could explore my React.js projects by",
@@ -74,7 +74,7 @@
     "icon": "assets/bootstrap.svg", 
     "desc": "Bootstrap provides a foundation for responsive and visually appealing web designs. Its pre-designed components and grid system streamline frontend development, creating sleek and user-friendly interfaces for seamless navigation and optimal user experiences.",
     "projects": [
-      {"projectName": "Dream House", "projectThumb": "assets/video/thumb/bootstrap/dream-house-thumb.png", "projectVideo": "assets/video/bootstrap/dream-house-app.mp4"}
+      {"projectName": "Dream House Landing Page", "projectThumb": "assets/video/thumb/bootstrap/dream-house-thumb.png", "projectVideo": "https://youtu.be/pXshT8rbzvQ"}
     ],
     "certifImg": "",
     "statement": "You could explore my projects using Bootstrap by",
