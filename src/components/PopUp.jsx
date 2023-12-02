@@ -37,7 +37,6 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
 
   // Set the selected project whenever changes
   const projectShown = useMemo(() => {
-    videoPlayer.current?.load()
     return skill?.projects[projectNum].projectVideo
   }, [skill, projectNum])
 
@@ -61,14 +60,12 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
           <div className="project-media">
             {
               <>
-                <video
+                <iframe
                   key={skill.id}
                   controls
                   className='active'
                   ref={videoPlayer}
-                >
-                  <source src={projectShown} type="video/mp4" />
-                </video>
+                  src={projectShown} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </>
             }
           </div>
