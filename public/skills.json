@@ -39,7 +39,7 @@
     "icon": "assets/react.svg", 
     "desc": "With React.js, I design modular and responsive user interfaces, ensuring a seamless user journey. Its component-based architecture allows me to create engaging web applications, making every interaction meaningful and intuitive.",
     "projects": [
-      {"projectName": "Restaunt Landing Page", "projectThumb": "assets/video/thumb/react/restaurant-thumb.png", "projectVideo": "assets/video/react/restaurant-app.mp4"},
+      {"projectName": "Restaunt Landing Page", "projectThumb": "assets/video/thumb/react/restaurant-thumb.png", "projectVideo": "https://www.youtube.com/embed/GLdHEt4mTD8?si=2_d-6SG-oAHx4MLH"},
       {"projectName": "GPT-3 Landing Page", "projectThumb": "assets/video/thumb/react/gpt3-thumb.png", "projectVideo": "https://www.youtube.com/embed/KYwO3Fy8UPU?si=zRLwTjKBe1x6yvkN"},
       {"projectName": "medical-services-app", "projectThumb": "assets/video/thumb/react/medical-services-thumb.png", "projectVideo": "https://www.youtube.com/embed/50R9BShlDlc?si=U0DppHwMHALy-399"}
     ],
@@ -61,9 +61,9 @@
     "icon": "assets/typescript.svg", 
     "desc": "TypeScript enhances my JavaScript code with static types, ensuring enhanced code quality and improved developer experience. With TypeScript, I catch errors early, enhance code readability, and enable efficient collaboration in my projects, resulting in robust and maintainable applications.",
     "projects": [
-      {"projectName": "Shopping Cart", "projectThumb": "assets/video/thumb/typescript/shopping-cart-thumb.png", "projectVideo": "assets/video/typescript/shopping-cart-app.mp4"},
-      {"projectName": "Notes Taking", "projectThumb": "assets/video/thumb/typescript/taking-notes-thumb.png", "projectVideo": "assets/video/typescript/taking-notes-app.mp4"},
-      {"projectName": "Matching Cards", "projectThumb": "assets/video/thumb/typescript/matching-cards-thumb.png", "projectVideo": "assets/video/typescript/matching-cards-app.mp4"}
+      {"projectName": "Shopping Cart", "projectThumb": "assets/video/thumb/typescript/shopping-cart-thumb.png", "projectVideo": "https://www.youtube.com/embed/wnDHdUkDWIc?si=IHWXmOMQYaXgYRc1"},
+      {"projectName": "Notes Taking", "projectThumb": "assets/video/thumb/typescript/taking-notes-thumb.png", "projectVideo": "https://www.youtube.com/embed/PDOhXsZPbUM?si=58c22M376wqqjHS4"},
+      {"projectName": "Matching Cards", "projectThumb": "assets/video/thumb/typescript/matching-cards-thumb.png", "projectVideo": "https://www.youtube.com/embed/c0a2y87DpUE?si=_zMA2cGAGWoTyqCu"}
     ],
     "certifImg": "",
     "statement": "You could explore my projects using TypeScript by",
