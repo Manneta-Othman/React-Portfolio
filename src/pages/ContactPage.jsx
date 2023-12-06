@@ -23,18 +23,18 @@ export default function ContactPage() {
     emailjs.sendForm('service_1xhg769', 'template_lgkyccn', form.current, 'xJZiI3edI9FEBoT3j')
       .then((result) => {
         emailSuccess()
-        console.log(result.text);
       }, (error) => {
         emailFailure()
-        console.log(error.text);
       });
   }
 
-
   function emailSuccess() {
-    console.log('success')
     setSendEmailAnimation(SENT_SUCCESS)
     setTimeout(() => {
+      //empty the input fields
+      form.current && Object.values(form.current).slice(0, 3).map(input => {
+        return input.value = ''
+      })
       setSendEmailAnimation(INITIAL_STATE)
     }, 5000)
   }
@@ -72,7 +72,7 @@ export default function ContactPage() {
         </form>
 
       </div >
-      
+
     </section>
   )
 }
