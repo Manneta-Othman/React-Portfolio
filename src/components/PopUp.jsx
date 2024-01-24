@@ -50,9 +50,6 @@ function PopUp({ isPopupOpen, setIsPopupOpen }) {
     document.addEventListener('mousedown', outSideClick)
   })
 
-
-  console.log('PopUp renders')
-
   return (
     <div className={isPopupOpen ? "popup open" : "popup"} >
       {skill?.projects &&

@@ -278,9 +278,6 @@ Home Section
 
 .header .container .image{
     flex: 2;
-    max-width: 389px;
-    min-width: 270px;
-    height: auto;
     object-fit: cover;
     animation: floatImage 4s ease-in-out infinite;
 }
@@ -298,8 +295,9 @@ Home Section
 }
 
 .header .container .image img{
-    width: 100%;
-    height: 100%;
+    width: 389px;
+    height: 389px;
+    object-fit: cover;
     border: 5px solid #42446E;
     border-radius: 50%;
     background: lightgray 50% / cover no-repeat var(--linear-gradient);
@@ -323,11 +321,16 @@ Skills Section
     gap: 30px;
 }
 
+.html-css{
+    display: flex;
+    gap: 100px;
+}
+
 .skills .images{
+    max-width: 900px;
     width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 100px);
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -621,8 +624,8 @@ About Design
 
 .about .image{
 
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin: 50px 0;
 }
@@ -630,6 +633,7 @@ About Design
 .about .image img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     border-radius: 50%;
 }
@@ -749,13 +753,25 @@ Not Found Page Design
 Media Query 
  ************/
 
+ @media screen and (max-width: 1250px) {
+
+    .header .content h1{
+        font-size: 50px;
+    }
+
+    .header .content span{
+        font-size: 50px;
+    }
+    
+}
+
 @media screen and (max-width: 1150px) {
     section{
         padding: 100px 7%;
     }
 
     .heading h1{
-        font-size: 38px;
+        font-size: 36px;
         margin-bottom: 30px;
 
     }
@@ -763,6 +779,9 @@ Media Query
         font-size: 26px;
     }
 
+    .header .container{
+        gap: 100px;
+    }
 
     .header .content h1{
         font-size: 48px;
@@ -773,6 +792,15 @@ Media Query
         font-size: 48px;
         line-height: 55px;
 
+    }
+
+    .header .container .image img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border: 5px solid #42446E;
+        border-radius: 50%;
+        background: lightgray 50% / cover no-repeat var(--linear-gradient);
     }
 
     .skills .images{
@@ -831,6 +859,19 @@ Media Query
     }
 }
 
+@media screen and (max-width: 950px) {
+
+    .header .content h1{
+        font-size: 34px;
+        margin-bottom: 26px;
+    }
+
+    .header .content span{
+        font-size: 34px;
+        margin-bottom: 26px;
+    }
+
+}
 
 @media screen and (max-width: 800px) {
     section{
@@ -848,6 +889,11 @@ Media Query
     .home .container{
         display: flex;
         flex-direction: column;
+    }
+
+    .header .container .image img{
+        width: 389px;
+        height: 389px;
     }
 
     .header .content h1{
@@ -954,6 +1000,11 @@ Media Query
         line-height: 35px;
     }
 
+    .header .container .image img{
+        width: 300px;
+        height: 300px;
+    }
+
     .skills .images{
         grid-template-columns: repeat(auto-fill, 70px);
         gap: 60px;
@@ -1015,5 +1066,10 @@ Media Query
 
 
 
-
+@media screen and (max-width: 400px) {
+    .header .container .image img{
+        width: 250px;
+        height: 250px;
+    }
+}
 

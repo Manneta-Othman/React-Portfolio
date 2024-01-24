@@ -144,6 +144,13 @@
     "certifImg": "",
     "statement": "For this technology, I'm currently in the process of developing official projects. While I haven't completed them yet, I've honed my skills through hands-on practice on various basic projects. Stay tuned for upcoming official projects that showcase my expertise in this area.",
     "id": 15
+  },
+  {
+    "lg": "React Native",
+    "icon": "assets/react-native.svg", 
+    "desc": "As a React Native developer, I possess a comprehensive skill set, covering UI/UX design, state management, navigation, and more. I specialize in transforming ideas into seamless and engaging mobile applications, ensuring a smooth user experience throughout the development process.",
+    "certifImg": "",
+    "statement": "Currently, I'm actively developing an idea into a mobile app, leveraging my skills in UI/UX design, state management, and navigation. While these projects are ongoing, they showcase my dedication to creating impactful and user-friendly mobile solutions. Stay tuned for upcoming releases that highlight my proficiency in turning concepts into functional applications.",
+    "id": 16
   }
-
       ]

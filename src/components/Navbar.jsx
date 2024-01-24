@@ -7,19 +7,17 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 export const Navbar = () => {
 
+
     const [path, setPath] = useState(window.location.pathname)
+
     const menuRef = useRef()
 
-    const [show, setOpenMenu] = useState(false);
-
+    const [openMenu, setOpenMenu] = useState(false);
 
     useEffect(() => {
 
         function clickOutside(e) {
             if (!menuRef.current.contains(e.target)) {
-                setOpenMenu(false)
-            }
-            if(path !== window.location.pathname){
                 setOpenMenu(false)
             }
         }
@@ -28,6 +26,10 @@ export const Navbar = () => {
 
     })
 
+    //close menu when navigate between pages
+    useEffect(() => {
+        setOpenMenu(false)
+    }, [path])
 
     return (
         <nav className="navbar" ref={menuRef}>
@@ -37,7 +39,7 @@ export const Navbar = () => {
                 <AiOutlineMenu id='menu-icon' />
             </div>
 
-            <ul className={show ? 'nav-links active' : 'nav-links'}>
+            <ul className={openMenu ? 'nav-links active' : 'nav-links'}>
                 <Link to="/">
                     <li
                         className={path === '/' ? 'active' : ''}

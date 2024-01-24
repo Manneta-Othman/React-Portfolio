@@ -30,8 +30,6 @@ export default function SkillsPage() {
     getSkills();
   }, []);
 
-  console.log('skills page renders')
-
   return (
     <section>
       <div className="skills-page-container">

@@ -23,6 +23,7 @@ export default function ProjectsPage() {
 
   useEffect(() => {
     getData();
+    window.scrollTo(0, 0)
   }, []);
   return (
     <section>

@@ -1,21 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import othman from '../assets/othman.png';
-import html from '../assets/html.svg';
-import css from '../assets/css.svg';
-import js from '../assets/javascript.svg';
-import react from '../assets/react.svg';
-import bootstrap from '../assets/bootstrap.svg';
-import sass from '../assets/sass.svg';
-import git from '../assets/git.svg';
-import vscode from '../assets/vscode.svg';
-import github from '../assets/github.svg';
-import redux from '../assets/redux.svg';
-import typeScript from '../assets/typescript.svg';
-import npm from '../assets/npm.svg';
-import nodejs from '../assets/nodejs.svg';
-import express from '../assets/express.svg';
-
 
 import { Heading } from '../components/Heading';
 import { Projects } from '../components/ProjectsSection';
@@ -23,7 +8,33 @@ import { BsArrowRight, BsBoxArrowInUpRight, BsGithub } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 
- const HomePage = () => {
+const HomePage = () => {
+
+    const [skills, setSkills] = useState([]);
+
+    const getSkills = () => {
+        fetch('skills.json', {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        }).then((response) => {
+            return response.json()
+        }).then((data) => {
+            setSkills(data);
+        })
+    }
+
+    useEffect(() => {
+        getSkills();
+    }, []);
+
+
+    function goTo(link) {
+        console.log(link);
+        window.location.href = `/${link}`;
+    }
+
     return (
         <div id="home" className='home'>
             <section className="header">
@@ -46,22 +57,23 @@ import { Link } from 'react-router-dom';
                     </div>
 
                     <div className="images">
-                        <img src={html} alt="html" />
-                        <img src={css} alt="css" />
-                        <img src={js} alt="js" />
-                        <img src={react} alt="react" />
-                        <img src={bootstrap} alt="bootstrap" />
-                        <img src={sass} alt="sass" />
-                        <img src={typeScript} alt="typescript" />
-                        <img src={redux} alt="redux" />
-                        <img src={git} alt="git" />
-                        <img src={vscode} alt="vscode" />
-                        <img src={github} alt="github" />
-                        <img src={nodejs} alt="nodejs" />
-                        <img src={express} alt="express" />
-                        <img src={npm} alt="npm" />
+                        {
+                            skills && skills.map(skill => (
+                                typeof skill.icon === 'object' ?
+                                    (
+                                            <div className='html-css' key={skill.id}>
+                                                <img src={skill.icon[0]} alt={skill.lg} />
+                                                <img src={skill.icon[1]} alt={skill.lg} />
+                                            </div>
+                                    )
+                                    :
+                                    (
+                                        <img key={skill.id} src={skill.icon} alt={skill.lg} />
+                                    )
+                            ))
+                        }
                     </div>
-                    <button className='discover-more'><Link to='/skills'>Discover more</Link><BsArrowRight /></button>
+                    <button className='discover-more' onClick={() => goTo('skills')}>Discover more<BsArrowRight /></button>
                 </div>
 
             </section>
@@ -78,7 +90,7 @@ import { Link } from 'react-router-dom';
                 </div>
 
                 <div className="explore">
-                    <Link to="/projects"><button>Projects ShowCase <BsBoxArrowInUpRight className='explor-icon' /></button></Link>
+                    <button onClick={() => goTo('projects')}>Projects ShowCase <BsBoxArrowInUpRight className='explor-icon' /></button>
                     <Link to="https://github.com/Manneta-Othman?tab=repositories"><button>Projects Repositories <BsGithub className='explor-icon' /> </button></Link>
                 </div>
 

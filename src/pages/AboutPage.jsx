@@ -37,12 +37,10 @@ export default function AboutPage() {
         <div className="container">
           {tech && tech.map(t => (
             typeof t.icon === 'string' ?
-              <img src={t.icon} alt={t.lg} />
+              <img src={t.icon} alt={t.lg} key={t.id}/>
               :
               t.icon.map(i => (
-                <>
-                  <img src={i} alt={t.lg} />
-                </>
+                  <img src={i} alt={t.lg} key={Math.random()} />
               ))
           ))}
         </div>
