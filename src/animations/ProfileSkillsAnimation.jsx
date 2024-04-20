@@ -20,7 +20,7 @@ import reactnative from '../assets/reactnative.svg';
 
 
 
-export default function profileSkillsAnimation() {
+export default function ProfileSkillsAnimation() {
 
   const [animation, setAnimation] = useState(false);
 
