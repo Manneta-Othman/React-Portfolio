@@ -54,7 +54,7 @@ export default function ProfileSkillsAnimation() {
 
     <div className="circle">
       <div className="profilepctr">
-        <img src={othman} alt="profile picture" onClick={() => setAnimation(q => !q)} />
+        <img src={othman} alt="profile" onClick={() => setAnimation(q => !q)} />
       </div>
       {
         skills && skills.map((s, index) => (
@@ -64,7 +64,7 @@ export default function ProfileSkillsAnimation() {
               animation ? activeSkullAnimation(index) : SkullAnimation(index)
             }>
             <div className="skllImage">
-              <img src={s} style={imgStyle(index)} />
+              <img src={s} style={imgStyle(index)} alt='skill' />
             </div>
 
           </div>

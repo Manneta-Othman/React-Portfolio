@@ -8,7 +8,7 @@ export function FlippingImgs({ front, back, index, column, imgWithGap, setSkills
   startSkillsSectionAnimation && 
     setTimeout(() => {
       setAnimation(true)
-    }, (index * 1000))
+    }, (index * 500))
   
 
   const [animation, setAnimation] = useState(false)
