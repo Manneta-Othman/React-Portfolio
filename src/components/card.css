@@ -28,7 +28,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f1f1f1;
+  background: #f0f0f0;
   border: 1px solid #dcdbdb;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background-color: #64b0d1;
+  background-color: #f9f9f9;
   z-index: 11;
 }
 
@@ -64,7 +64,7 @@
   font-weight: 600;
   line-height: 42px; 
   letter-spacing: 1px;
-  color: #f1f1f1;
+  color: #666666;
 }
 
 .card h2{
@@ -98,7 +98,7 @@
   justify-content: flex-start;
   gap: 20px;
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #f0f0f0;
   visibility: hidden;
   opacity: 0;
 }

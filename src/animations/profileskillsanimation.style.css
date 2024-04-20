@@ -1,0 +1,152 @@
+
+  .circle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+  }
+  
+  .circle .profilepctr{
+    width: 389px;
+    height: 389px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+    background: lightgray 50% / cover no-repeat var(--linear-gradient);
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+  .circle .profilepctr img{
+    width: 99.5%;
+    height: 99.5%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    padding: 2;
+    z-index: 2;
+  }
+  
+  .skll{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    background: lightgray 50% / cover no-repeat var(--linear-gradient);
+    transition: .5s ease;
+    transform-origin: 300px;
+    z-index: 1;
+  }
+
+  .skll.active{
+    left: 0;
+  }
+
+  .circle .skll .skllImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 97%;
+    padding: 2px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+
+  .circle .skll .skllImage img{
+    width: 70%;
+    height: 70%;
+  }
+
+
+
+@media screen and (max-width: 1450px) {
+  .circle{
+    width: 550px;
+    height: 550px;
+  }
+  
+  
+  .circle .profilepctr{
+    width: 339px;
+    height: 339px;
+  }
+  
+  .skll{
+    width: 60px;
+    height: 60px;
+    transform-origin: 275px;
+  }
+  
+}
+
+@media screen and (max-width: 1150px) {
+  .circle{
+    width: 450px;
+    height: 450px;
+  }
+  
+  
+  .circle .profilepctr{
+    width: 289px;
+    height: 289px;
+  }
+  
+  .skll{
+    width: 50px;
+    height: 50px;
+    transform-origin: 225px;
+  }
+  
+}
+
+
+@media screen and (max-width: 550px) {
+  .circle{
+    width: 400px;
+    height: 400px;
+  }
+  
+  
+  .circle .profilepctr{
+    width: 289px;
+    height: 289px;
+  }
+  
+  .skll{
+    width: 40px;
+    height: 40px;
+    transform-origin: 200px;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  
+  .circle .profilepctr{
+    width: 259px;
+    height: 259px;
+  }
+  
+  .circle{
+    width: 280px;
+    height: 280px;
+  }
+
+
+  .skll{
+    display: none;
+  }
+  
+}

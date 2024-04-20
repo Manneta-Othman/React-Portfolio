@@ -1,0 +1,46 @@
+/***************
+Skills Section 
+ ************/
+
+ .skills{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+}
+
+.skills-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.skills .images{
+  position: relative;
+  min-height: 400px;
+  margin-bottom: 50px;
+}
+
+.skills .images img{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.discover-more{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.discover-more a{
+  color: #666666;
+}
+.discover-more a:hover, .discover-more:hover{
+  font-weight: 500;
+}

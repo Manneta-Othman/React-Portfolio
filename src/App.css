@@ -16,18 +16,19 @@ button{
     gap: 10px;
     outline: none;
     border: none;
-    background-color: #e3e3e3;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     color: #666666;
     font-size: 14px;
     font-weight: 400;
     padding: 10px;
     border-radius: 5px;
+    border: 0.1px solid #42446E;
     cursor: pointer;
 }
 
 button:hover{
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
     font-weight: 500;
 }
 
@@ -233,6 +234,7 @@ section{
     }
 }
 
+
 /***************
 Home Section 
  ************/
@@ -246,7 +248,7 @@ Home Section
 .header .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between ;
     gap: 150px;
 }
 
@@ -257,7 +259,7 @@ Home Section
 
 .header .content h1{
     color: #42446E;
-    font-size: 54px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 70px;
@@ -276,90 +278,12 @@ Home Section
     letter-spacing: -1px;
 }
 
-.header .container .image{
-    flex: 2;
-    object-fit: cover;
-    animation: floatImage 4s ease-in-out infinite;
-}
 
-@keyframes floatImage {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-2.4rem);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-.header .container .image img{
-    width: 389px;
-    height: 389px;
-    object-fit: cover;
-    border: 5px solid #42446E;
-    border-radius: 50%;
-    background: lightgray 50% / cover no-repeat var(--linear-gradient);
-}
 
 /***************
-Skills Section 
+Skills Section
  ************/
 
- .skills{
-    display: flex;
-    flex-direction: column; 
-    background-color: #f1f1f1;
-}
-
-.skills-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.html-css{
-    display: flex;
-    gap: 100px;
-}
-
-.skills .images{
-    max-width: 900px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    gap: 50px 100px;
-    margin-bottom: 50px;
-}
-
-.skills .images img{
-    width: 80px;
-    height: 80px;
-    padding: 5px;
-    object-fit: fill;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-.discover-more{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.discover-more a{
-    color: #666666;
-}
-.discover-more a:hover, .discover-more:hover{
-    font-weight: 500;
-}
 
 
 
@@ -388,9 +312,10 @@ Project Section
 .project{
     max-width: 350px;
     max-height: fit-content;
-    background: #FFF;
-    border: 1px solid #f1f1f1;
+    background: #F9F9F9;
+    border: 1px solid #dcdbdb;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 20px;
 }
 
 .project .image{
@@ -633,7 +558,7 @@ About Design
 .about .image img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     border-radius: 50%;
 }
@@ -651,6 +576,7 @@ About Design
     letter-spacing: -0.4px;
     margin-bottom: 20px;
 }
+
 .about-me p{
     color: var(--dark-content, #666);
     font-size: 17px;
@@ -658,6 +584,8 @@ About Design
     font-weight: 400;
     line-height: 28px; /* 144.444% */
     text-align: justify;
+    padding: 10px;
+    background-color: #f9f9f9;
 }
 
 .about .skills{
@@ -682,12 +610,21 @@ About Design
     gap: 40px;
 }
 
-.about .container img{
+.about .container .imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80px;
     height: 80px;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.about .container .imageContainer img{
+    width: 99%;
+    height: 99%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    object-fit: contain;
 }
 
 /***************
@@ -726,7 +663,7 @@ Not Found Page Design
 .intro{
     align-self: center;
     max-width: 700px;
-    color: #666;
+    color: #666666;
     font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
@@ -734,10 +671,10 @@ Not Found Page Design
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 50px;
-    background: #f1f1f1;
+    background: #f9f9f9;
     padding: 20px;
     border-bottom: 3px solid #E70FAA;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
   }
 
 
@@ -753,14 +690,17 @@ Not Found Page Design
 Media Query 
  ************/
 
- @media screen and (max-width: 1250px) {
-
+ @media screen and (max-width: 1450px) {
+    .header .container{
+        width: 100%;
+        gap: 80px;
+    }
     .header .content h1{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .header .content span{
-        font-size: 50px;
+        font-size: 40px;
     }
     
 }
@@ -780,16 +720,16 @@ Media Query
     }
 
     .header .container{
-        gap: 100px;
+        gap: 50px;
     }
 
     .header .content h1{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 55px;
     }
     
     .header .content span{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 55px;
 
     }
@@ -801,11 +741,6 @@ Media Query
         border: 5px solid #42446E;
         border-radius: 50%;
         background: lightgray 50% / cover no-repeat var(--linear-gradient);
-    }
-
-    .skills .images{
-        display: flex;
-        gap: 90px;
     }
 
     /* projects */
@@ -861,13 +796,19 @@ Media Query
 
 @media screen and (max-width: 950px) {
 
+    .home .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
     .header .content h1{
-        font-size: 34px;
+        font-size: 32px;
         margin-bottom: 26px;
     }
 
     .header .content span{
-        font-size: 34px;
+        font-size: 32px;
         margin-bottom: 26px;
     }
 
@@ -879,16 +820,15 @@ Media Query
     }
 
     .heading h1{
-        font-size: 30px;
+        font-size: 32px;
         margin-bottom: 26px;
     }
     .heading p{
         font-size: 20px;
     }
 
-    .home .container{
-        display: flex;
-        flex-direction: column;
+    .header .container {
+        gap: 100px;
     }
 
     .header .container .image img{
@@ -897,53 +837,48 @@ Media Query
     }
 
     .header .content h1{
-        font-size: 38px;
+        font-size: 32px;
         line-height: 45px;
     }
     
     .header .content span{
-        font-size: 38px;
+        font-size: 32px;
         line-height: 45px;
     }
 
-    .skills .images{
-        grid-template-columns: repeat(4, 80px);
-        gap: 80px;
+    /* projects */
+    .project-container{
+        gap: 40px;
+    }
+    
+    .projects .project{
+        max-width: 303px;
+    }
+    
+    .project .content{
+        row-gap: 10px;
+        padding: 24px;
+    }
+    
+    .project .content .title{
+        color: #000;
+        font-size: 20px;
+        line-height: 18px;
+    }
+    
+    .project .content .desc,
+    .project .content .tech span,
+    .content .links a{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .project .content .tech{
+        font-size: 10px;
+        line-height: 18px;
     }
 
-        /* projects */
-        .project-container{
-            gap: 40px;
-        }
-        
-        .projects .project{
-            max-width: 303px;
-        }
-        
-        .project .content{
-            row-gap: 10px;
-            padding: 24px;
-        }
-        
-        .project .content .title{
-            color: #000;
-            font-size: 20px;
-            line-height: 18px;
-        }
-        
-        .project .content .desc,
-        .project .content .tech span,
-        .content .links a{
-            font-size: 12px;
-            line-height: 18px;
-        }
-        
-        .project .content .tech{
-            font-size: 10px;
-            line-height: 18px;
-        }
-
-            /* Footer */
+    /* Footer */
 
     footer .footer-top .contact{
         display: flex;
@@ -954,8 +889,6 @@ Media Query
     .footer-top .contact p, .footer-top .contact .icon{
         margin: 10px;
     }
-
-
 
     footer .footer-bottom{
         display: flex;
@@ -1003,11 +936,6 @@ Media Query
     .header .container .image img{
         width: 300px;
         height: 300px;
-    }
-
-    .skills .images{
-        grid-template-columns: repeat(auto-fill, 70px);
-        gap: 60px;
     }
 
     /* Project */
